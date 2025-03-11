@@ -1,0 +1,28 @@
+@charset "utf-8";
+#header.microsite {border-bottom:1px solid #d9d9d9;padding-left:20px;padding-right:20px;} /*padding-left와 padding-right로 좌측 로고와 우측 util 네비게이션 바깥 여백 조정 가능.*/
+#header.microsite .header_wrap {position:relative;padding:7px 0;align-items: center;max-width:1200px} /*max-width로 좌측 로고와 우측 util 네비게이션 영역 너비 조정 가능.*/
+#header.microsite .header_wrap .header_util {width:auto;transform: none;left:auto;top:auto;right:0}
+.microsite .header_util .btn_bg_orange {color:#fff !important}
+.microsite .header_util .btn_size_s {min-width:70px;height:26px;line-height: 22px;font-size:12px !important}
+.microsite .header_wrap .header_logo {width:auto;height:18px;margin-bottom:0;padding:0 10px}
+.microsite .header_wrap .header_logo img {height:18px}
+.microsite .header_util a {vertical-align: middle;}
+.microsite .header_util .my_info .nickname {height:auto}
+.microsite .header_util .my_info .my_lyr {top:26px}
+
+@media screen and (max-width: 768px) {
+    #header.microsite {position:relative}
+    #header.microsite .header_wrap {display: flex;}  
+    .microsite .header_wrap .header_logo,
+    .microsite .header_wrap .header_logo img {height:16px}    
+    .microsite .header_util.mo .my_info {display: block;}
+    .microsite .btn_myinfo {display: inline-block;width: 24px;height: 24px;background: url('https://gb.worldvision.or.kr/resources/wvFrt/project/template/microsite/images/util/ico-mc-arrow-down.svg') no-repeat center center;border:#eee 1px solid}
+    .microsite .header_util.mo .my_info .my_lyr {display: block;top:27px;font-size: 12px;line-height: 20px;}
+    .microsite .header_util.mo .my_info .my_lyr, 
+    .microsite .header_util.mo .my_info .my_lyr a {text-align: center;}
+    .microsite .header_util.mo .my_info .btn_myinfo.on {background: #EEEEEE url('https://gb.worldvision.or.kr/resources/wvFrt/project/template/microsite/images/util/ico-mc-arrow-up.svg') no-repeat center center;}
+    .microsite .header_util.mo .name {font-weight: bold;color: #222;}
+    .microsite .header_util.mo .my_info .my_lyr .divide {border-top:#d9d9d9 1px solid;padding-top: 10px;}
+    .microsite .header_util.mo .my_info .my_lyr ul li.btn_area {margin-top:6px}
+    .microsite .header_util.mo .btn_size_s {height:36px;line-height: 34px;}
+}
