@@ -101,7 +101,7 @@
     line-height: 42px;
 }
 #container .content-title > span {
-    display: block;
+    /* display: block; */
 }
 #container .content-section .item-container {
     margin-top: clamp(80px, 6vw, 120px);
@@ -132,6 +132,9 @@
     font-size: 12px;
     line-height: 22px;
     margin-top: 40px;
+}
+#container .content-section .item-container-22{
+    margin-top: clamp(80px, 12vw, 220px);
 }
 
 
@@ -178,6 +181,29 @@
     .web06 #container .sub-title {
         text-align: center;
         margin-top: 15px;
+    }
+    .web06 #container .content-section p{
+        text-align: center;    
+        margin-top: 25px;
+    }
+    .web06 #container .m-mt-25 {
+        margin-top: 25px;
+    }
+    .web06 #container .content-section .item-table {
+        gap: 0;
+      }
+    .m-mt-8 {
+    margin-top: clamp(80px, 1vw, 80px) !important;
+    }
+    .web06 #container .content-item {
+        margin-top: 25px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .web06 #container .content-section p {
+        font-size: 12px;
     }
 }
 

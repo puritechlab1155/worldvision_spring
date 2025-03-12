@@ -113,6 +113,10 @@ img {
   .f-s-45 {
     font-size: 45px;
   } 
+  .f-s-18 {
+    font-size: 18px;
+  }
+   
 
   /* margin */
   .m-t-1 {
@@ -148,7 +152,7 @@ img {
   .m-t-15 {
     margin-top: 150px;
   }
-
+ 
   .l-t-62 {
     line-height: 62px;
   }
@@ -186,6 +190,9 @@ img {
   .text-center {
     text-align: center;
   }
+  .text-right {
+    text-align: right;
+  }
 
   .t-orange{
     color: #F56400;
@@ -194,5 +201,15 @@ img {
   .first {
     margin-top: 0 !important;
   }
+  span.pc {
+    display: block;
+  }
 
-  
+  @media (max-width: 767px) {
+    span.mob {
+      display: block;
+    }
+    .f-s-16 {
+      font-size: 16px;
+    }
+  }
