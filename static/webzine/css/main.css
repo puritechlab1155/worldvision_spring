@@ -86,6 +86,7 @@
 #container .arrow-title {
     font-size: 19px;
     color: #F56400;
+    animation-delay: 1s;
 }
 #container .content-section {
     max-width: 1240px;
