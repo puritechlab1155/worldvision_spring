@@ -31,11 +31,10 @@
 #container .content-section .item-table {
     justify-content: space-between;
 }
-.item-title {
+#container .item-title {
     margin-top: -1px;
     font-size: 22px;
 }
-
-.item-img {
+#container .item-img {
     margin-top: clamp(80px, 5vw, 100px);
 }

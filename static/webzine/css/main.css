@@ -94,10 +94,10 @@
 .paginationbutton:disabled { cursor: not-allowed; opacity: 0.5; }
 .pagination .scroll-button { padding: 0.8vw; }
 
-.pagination button:disabled {
-    /* opacity: 0;
+.pagination button.none {
+    opacity: 0;
     display: none;
-    cursor: not-allowed; */
+    cursor: not-allowed;
 }
 
 @media (min-width: 2560px) {
