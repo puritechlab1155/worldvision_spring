@@ -12,7 +12,7 @@
 .campaign #header .header_wrap .vol_info { font-weight: 500; font-size: 18px; line-height: 28px;  align-items: center; margin-right: 13px;}
 .campaign #header .header_wrap .vol_info.mobile_display { display: none;}
 /* .campaign #header .header_wrap .menu { margin: 0; } */
-.campaign #header .header_wrap .menu button {  width: 81px; height: 40px; border: 2px solid #fff; border-radius: 15px; padding: 0.2rem; text-align: center; color: #fff; font-weight: 700; font-size: 18px; line-height: 28px; cursor: pointer; }
+.campaign #header .header_wrap .menu button {  width: 81px; height: 40px; border: 2px solid #fff; border-radius: 355px; padding: 0.2rem; text-align: center; color: #fff; font-weight: 700; font-size: 18px; line-height: 28px; cursor: pointer; }
 .campaign #header .header_wrap .angles.mobile_display { display: none;}
 
 /* 서브페이지에서의 헤더의 메뉴 버튼 radius가 다른 부분에 대함 */
@@ -286,7 +286,7 @@
 } */
 
 /* 각 섹션 cover */
-.campaign .cover { height: 573px; position: relative;color: #fff;}
+.campaign .cover { height: 264px; position: relative;color: #fff;}
 .campaign .cover .cover_outer .main_area {width: 100%; max-width: 1200px; margin: 0 auto; position: relative;}
 .campaign .cover .cover_inner { display: flex; flex-direction: column; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; justify-content: center; text-align: center; }
 .campaign .cover .cover_inner .main_copy h2 { color:  #fff; font-weight: 500; font-size: 32px; line-height: 42px; }
