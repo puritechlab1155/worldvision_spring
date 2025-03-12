@@ -23,3 +23,11 @@
 #container .content-title > span {
     display: block;
 }
+#container .content-section .content-1 {
+    justify-content: space-between;
+    margin-top: clamp(120px, 5vw, 80px);
+}
+.item-title {
+    margin-top: -1px;
+    font-size: 22px;
+}
