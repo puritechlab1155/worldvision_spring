@@ -165,9 +165,17 @@ img {
     display: flex;
     flex-direction: column;
   }
+
+  .flex-box {
+    display: flex;
+  }
   
   .text-center {
     text-align: center;
+  }
+
+  .t-orange{
+    color: #F56400;
   }
 
   .first {
