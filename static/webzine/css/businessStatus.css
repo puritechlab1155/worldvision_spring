@@ -1,0 +1,25 @@
+#container .arrow-img {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+#container .arrow-title {
+    font-size: 19px;
+    color: #F56400;
+}
+#container .content-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: clamp(50px, 5vw, 96px);
+}
+#container .content-title {
+    color: #F56400;
+    font-size: 32px;
+    line-height: 42px;
+}
+#container .content-title > span {
+    display: block;
+}

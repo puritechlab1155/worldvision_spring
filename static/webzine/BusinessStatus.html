@@ -50,31 +50,13 @@
 
     <!-- css 입력 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/common.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/businessStatus.css" type="text/css">
 
     <!-- js 입력 -->
     <script defer type="text/javascript" src="js/protectImgText.js"></script>
     <script defer type="text/javascript" src="js/pageCtrl.js"></script>
-
-    <style>
-        /*
-            아래의 <style> 코드는 마이크로사이트의 gnb/컨텐츠 영역과 너비에 맞춰 월드비전의 최상단 gnb와 footer의 너비를 조정할 수 있는 코드입니다. 
-            조정 후 마이크로사이트 만의 css 파일에 해당 코드도 추가 삽입을 바랍니다. 조정을 안하신다면 삭제 해주시기 바랍니다.  
-        */
-        /* #header.microsite,
-        #footer {
-            padding-left: 20px;
-            padding-right: 20px;
-        } */
-
-        /*padding-left와 padding-right로 좌측 로고와 우측 util 네비게이션, 풋더의 바깥 여백 조정 가능.*/
-        /* #header.microsite .header_wrap,
-        #footer .footer_wrap {
-            max-width: 1200px
-        } */
-
-        /*max-width로 좌측 로고와 우측 util 네비게이션 영역, 풋더 영역 너비 조정 가능.*/
-    </style>
 
 </head>
 
@@ -177,116 +159,17 @@
             });
         </script> <!-- // 전체 메뉴 팝업 -->
 
-        <!-- 콘텐츠 -->
+        <!-- 콘텐츠  animate__animated animate__fadeInDown -->
         <section id="container">
-            <div class="cover">
-                <div class="cover_outer">
-                    <div class="main_area">
-                        <img src="images/scene02/scene02-cover.jpg" class="pc_display" alt="현장 이야기2 메인 이미지. 맹그로브 숲 복원을 위해 모인 월드비전 현장 직원들과 봉사자들">
-                        <img src="images/scene02/scene02-cover-mo.png" class="mobile_display" alt="현장 이야기2 메인 이미지. 맹그로브 숲 복원을 위해 모인 월드비전 현장 직원들과 봉사자들">
-                    </div>
+            <div class="top-arrow">
+                <div class="arrow-img">
+                    <img src="images/businessStatus/arrow.png" alt="화살표 이미지 아래로">
+                    <span class="arrow-title f-w-5">사업 현황</span>
                 </div>
-                <div class="cover_inner">
-                    <div class="main_copy">
-                        <h2>
-                            아동과 지구의 미래를 지키는<br>
-                            월드비전 맹그로브 숲 <br class="mobile_display">복원 이야기
-                        </h2>
-                    </div>
-                    <div class="item_img animate__animated animate__fadeInDown pc_display"><img src="images/common/cover-item.svg" alt="화살표 이미지 아래로"></div>
-                    <div class="item_img animate__animated animate__fadeInDown mobile_display"><img src="images/common/cover-item-mo.svg" alt="화살표 이미지 아래로"></div>
-                    <div class="title animate__animated animate__zoomIn"><h3>현장 이야기2</h3></div>
-                </div>
-            </div><!-- //cover -->
+            </div>
 
-            <div class="contents_area">
-                <div class="intro">
-                    <div class="intro_txt pc_display">
-                        인도네시아 자바 섬 동부의 수라바야는 인도네시아에서 두 번째로 큰 도시로, <br>
-                        맹그로브 숲이 있던 강 하구는 현재 게와 물고기 양식 연못으로 변했습니다. <br>
-                        맹그로브 숲은 전 세계적으로 빠르게 사라지고 있으며, <br>
-                        열대 및 아열대 지역의 맹그로브 숲 약 67%가 이미 손실되었고 <br>
-                        매년 1%씩 추가로 감소하고 있습니다.
-                    </div>
-                    <div class="intro_txt mobile_display">
-                        인도네시아 자바 섬 동부의 수라바야는 인도네시아에서 두 번째로 큰 도시로, 맹그로브 숲이 있던 강 하구는 현재 게와 물고기 양식 연못으로 변했습니다. 맹그로브 숲은 전 세계적으로 빠르게 사라지고 있으며, 열대 및 아열대 지역의 맹그로브 숲 약 67%가 이미 손실되었고 매년 1%씩 추가로 감소하고 있습니다.
-                    </div>
-                </div><!-- //intro -->
-
-                <div class="article_area">
-                    <article class="art art01">
-                        <div class="art_title pc_display">
-                            모두를 위한 바다의 숲
-                        </div>
-                        <div class="art_title mobile_display">
-                            <span>모두를 위한 바다의 숲</span>
-                        </div>
-                        <div class="art_conts">
-                            <p>
-                                ‘바다의 숲’이라 불리는 맹그로브 숲은 기후변화 대응에 중요한 역할을 합니다. 전 세계 열대 해안선의 70%를 차지하며 해수면 상승과 기후변화로 인한 피해를 방지합니다. 맹그로브의 뿌리는 해안 침식을 막고, 태풍과 쓰나미 같은 자연재해로부터 해안을 보호합니다. 또한, 다양한 생물의 서식지를 제공해 생태계 균형을 유지하고, 어류와 새우 양식 생산성을 높입니다. 기존 숲보다 최대 5배 더 많은 탄소를 흡수해 기후변화에 효과적으로 대응하며, 아동들의 삶에도 긍정적인 영향을 미칩니다.
-                            </p>
-                            <div class="img_box">
-                                <img src="images/scene02/mangrove-forest01.jpg" alt="'바다의 숲'이라 불리는 맹그로브 숲은 기후변화 대응에 중요한 역할을 합니다.">
-                                <img src="images/scene02/mangrove-forest02.jpg" alt="맹그로브 날 행사를 통해 맹그로브 묘목 식재 활동에 참여한 사업 대상 지역의 지역사회 주민들. 식재 활동이 끝난 이후 단체 사진을 촬영했다." class="img1-2">
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="art art02">
-                        <div class="art_title pc_display">
-                            월드비전의 맹그로브 복원 활동
-                        </div>
-                        <div class="art_title mobile_display">
-                            <span>월드비전의 맹그로브 복원 활동</span>
-                        </div>
-                        <div class="art_conts">
-                            <p>
-                                월드비전은 수라바야 지역 주민들에게 맹그로브 숲의 환경적·경제적 이점을 교육하며, 양식지의 기능을 유지하면서도 맹그로브를 심고 관리하는 방법을 알려주고 있습니다. 어린 시절부터 양식 연못을 관리해 온 살람 씨(60세)는 월드비전의 교육을 통해 맹그로브의 중요성을 깨닫고 지역 주민들의 적극적인 참여를 이끌고 있습니다.<br>
-                                2023년 11월부터 2024년 7월까지 1만 그루의 맹그로브 묘목을 심고 친환경 양식 시스템을 운영했으며, 주민들이 환경보호 활동을 주도할 수 있도록 다양한 교육 프로그램을 지원했습니다. 7월 26일 &lt;세계 맹그로브 생태계 보존의 날&gt;에는 수라바야 시 정부와 함께 3천 그루의 맹그로브 묘목을 심는 행사를 진행했습니다.
-                            </p>
-                            <div class="img_box">
-                                <img src="images/scene02/program-manager01.jpg" alt="웃으며 묘목을 심고 있는 월드비전 현장 직원" class="img2-1">
-                                <div class="flex-row">
-                                    <img src="images/scene02/program-manager02-1.jpg" alt="맹그로브 날 행사를 통해 맹그로브 묘목 식재 활동에 참여한 월드비전 현장 직원(수라바야 프로그램 지역 매니저)">
-                                    <img src="images/scene02/program-manager02-2.png" alt="월드비전은 수라바야 지역 주민들에게 맹그로브를 심고 관리하는 방법을 알려주고 있습니다." class="img2-3">
-                                </div>
-                                <img src="images/scene02/program-manager03.png" alt="묘목을 보여주는 살람 씨" class="img2-4">
-                                <img src="images/scene02/program-manager04.png" alt="지역사회 맹그로브 복원 및 식재 활동에 참여해 본인이 심고 관리해 온 맹그로브 묘목을 보여주며 설명하는 살람 씨" class="img2-5">
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="art art03">
-                        <div class="art_title pc_display">
-                            아동과 청소년의 참여와 교육
-                        </div>
-                        <div class="art_title mobile_display">
-                            <span>아동과 청소년의 참여와 교육</span>
-                        </div>
-                        <div class="art_conts">
-                            <p>
-                                맹그로브 숲의 보존은 아동과 청소년의 교육과 인식 개선에도 중요합니다. 월드비전은 지역 주민뿐만 아니라 아동과 청소년을 대상으로 맹그로브의 중요성과 경제적 가치를 교육하고, 인식 개선 캠페인을 펼치고 있습니다. 아동청소년 그룹의 대표 파릴(16세)은 프로그램에 참여한 후 맹그로브 보호 활동에 적극 나서고 있으며, 더 많은 친구들과 함께 맹그로브를 지키기 위해 노력하고 있습니다.
-                            </p>
-                            <div class="img_box">
-                                <div class="flex-row">
-                                    <img src="images/scene02/awareness-campaign01.jpg" alt="포스터를 들고 웃고 있는 사람들" class="img3-1">
-                                    <img src="images/scene02/awareness-campaign02.jpg" alt="월드비전은 아동과 청소년을 대상으로 맹그로브의 중요성과 경제적 가치를 교육하고, 인식 개선 캠페인을 펼치고 있습니다.">
-                                </div>
-                                <img src="images/scene02/awareness-campaign03.png" alt="인도네시아 제79회 독립기념일 축제에서 맹그로브 보호 캠페인에 참여한 파릴과 아동청소년 그룹. 맹그로브의 날 행사에서 진행된 이야기 대회에 참여한 사업 참여 아동들">
-                                <div class="margin-m"><img src="images/scene02/awareness-campaign04.png" alt="트로피와 상품을 들고 기념 촬영을 하는 사람들" class="img3-4"></div>
-                            </div>
-                            <p>
-                                월드비전은 올해 9월까지 1차 사업을 완료하고, 총 70헥타르의 맹그로브 숲을 복원했습니다. 이어서 10월부터 2026년 9월까지 2차 사업을 통해 지역 주민들이 자발적으로 복원된 맹그로브 숲을 관리하고 활용할 수 있도록 지원할 예정입니다. 맹그로브 숲을 보호하고 복원하는 일은 아동과 지구의 미래를 밝게 만드는 중요한 활동입니다. 월드비전은 지속 가능한 환경 보호를 통해 모두의 삶을 풍요롭게 만들기 위한 노력을 멈추지 않을 것입니다.
-                            </p>
-                            <div class="info_box">
-                                <div class="writer_info">
-                                    <div class="info01">write. 월드비전 커뮤니케이션팀 김수희</div>
-                                    <div class="info02">photo. 인도네시아 월드비전 커뮤니케이션팀</div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- //article_area -->
+            <div class="content-section">
+                <h3 class="content-title f-w-6">한국월드비전 <span>사업 현황</span></h3>
             </div><!-- //contents_area -->
         </section>
 
