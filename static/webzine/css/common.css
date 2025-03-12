@@ -57,6 +57,19 @@ img {
     color: inherit; /* 링크 기본 색상을 텍스트 색상으로 */
   }
 
+  /* 처음에는 완전히 투명하고 아래쪽에 위치 */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px); /* 50px 아래에 위치 */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+
+  /* 스크롤될 때 실행 (JS에서 클래스 추가) */
+  .animate-on-scroll.animate__animated {
+    opacity: 1;
+    transform: translateY(0); /* 원래 위치로 이동 */
+  }
+
   .pc_display { display: block; }
   .mobile_display { display: none; }
 
