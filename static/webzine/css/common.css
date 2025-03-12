@@ -61,7 +61,7 @@ img {
   .animate-on-scroll {
     opacity: 0;
     transform: translateY(50px); /* 50px 아래에 위치 */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 1s linear, transform linear;
   }
 
   /* 스크롤될 때 실행 (JS에서 클래스 추가) */

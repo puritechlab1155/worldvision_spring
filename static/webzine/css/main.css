@@ -110,9 +110,11 @@
     justify-content: space-between;
 }
 #container .item-title {
-    width: 80px;
     margin-top: -1px;
     font-size: 22px;
+}
+.business #container .item-title {
+    width: 80px;
 }
 #container .item-img {
     margin-top: clamp(80px, 5vw, 100px) !important;
