@@ -152,3 +152,49 @@
         object-fit: contain;
     }
 }
+
+
+
+
+/* page ctrl */
+.pagination { z-index: 99; position: fixed; display: flex; flex-direction: column; bottom: 20px; right: 2%; text-align: center; } 
+.pagination button { width: 50%; height: 50%; margin: 3px 0; cursor: pointer; border: none; border-radius: 50%; background-color: #F67821; /* 배경색 */
+    padding: 1vw 1vw;
+    /* 최소 및 최대 값을 설정하여 반응형 패딩을 조정 */
+    /* padding: clamp(10px, 1.5vw, 15px) clamp(10px, 1.5vh, 15px); */ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    transition: all 0.3s ease; /* 호버 효과를 위한 트랜지션 */position: relative; z-index: 1;
+}
+.pagination button::before { content: '';position: absolute; top: 50%; left: 50%; width: 0;height: 0;border-radius: 7px;background: #c76407; /* 기본 배경색 */
+    transition: all 0.3s ease;transform: translate(-50%, -50%);z-index: -1; }
+.pagination button:hover::before{width: 80%;height: 80%; border-radius: 50%; } 
+.pagination button:hover { background-size: 30%; transform: translateY(-2px);}
+.pagination button img { width: 100%; display: block; }
+.paginationbutton:disabled { cursor: not-allowed; opacity: 0.5; }
+.pagination .scroll-button { padding: 0.8vw; }
+
+.pagination button.none {
+    opacity: 0;
+    display: none;
+    cursor: not-allowed;
+}
+
+@media (min-width: 2560px) {
+    .pagination button { padding: 1.5rem; }
+    .pagination .scroll-button { padding: 1rem; }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .pagination button { width:40%; height: 40%; }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .pagination button { width: 40%; height: 50%; }
+    .pagination .scroll-button { width: 40%; height: 40%; padding: 1vw; }
+}
+@media (min-width: 400px)  and (max-width: 767px) {
+    /* .pagination { width: 12%; right: 27px; } */
+    .pagination button { width: 40%; height: 40%; padding: 10px; margin: 3px 0; }
+}
+@media only all and (max-width: 399px) {
+    .pagination { width: 7%; right: 27px; }
+    .pagination button { width: 40px; height: 40px; padding: 10px; margin: 3px 0; }
+    .pagination .scroll-button { padding: 1.2vw; }
+}
