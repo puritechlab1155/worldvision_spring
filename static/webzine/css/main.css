@@ -131,7 +131,10 @@
 
 @media (max-width: 767px) {
     .all-wrap {
-        padding-top: 0px !important;
+        padding-top: 33px !important;
+    }
+    #container .arrow-title {
+        font-size: 16px;
     }
     #container .content-title {
         text-align: center;
