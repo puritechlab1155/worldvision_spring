@@ -48,6 +48,10 @@
     <script type="text/javascript" src="https://gb.worldvision.or.kr/resources/wvFrt/project/template/microsite/js/header-util.js"></script>
     <!-- //수정 불가-->
 
+    <!-- AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
     <!-- css 입력 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/common.css" type="text/css">
@@ -185,7 +189,7 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="item-img">
+                        <div class="item-img" data-aos="fade-up" data-aos-offset="200" data-aos-easing="linear" data-aos-duration="1000">
                             <picture>
                                 <img src="images/businessStatus/businessMap.png" alt="한국월드비전 사업 현황 지도">
                             </picture>
@@ -219,6 +223,10 @@
         <!-- footer -->
         <div data-include-path="https://gb.worldvision.or.kr/resources/wvFrt/project/template/inc/footer.html"></div>
         <!-- //footer -->
+
+        <script>
+            AOS.init();
+        </script>
 
         <script>
             window.addEventListener('load', function () {
