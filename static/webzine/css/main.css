@@ -120,6 +120,15 @@
     margin-top: clamp(80px, 5vw, 100px) !important;
 }
 
+/* financialReporting */
+#container .financial-title .sub-title {
+    color: #F56400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+
+
 @media (max-width: 767px) {
     .all-wrap {
         padding-top: 0px !important;
@@ -153,6 +162,8 @@
         width: 100%;
         object-fit: contain;
     }
+
+    /* financialReporting */
 }
 
 
