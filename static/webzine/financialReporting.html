@@ -48,10 +48,6 @@
     <script type="text/javascript" src="https://gb.worldvision.or.kr/resources/wvFrt/project/template/microsite/js/header-util.js"></script>
     <!-- //수정 불가-->
 
-    <!-- AOS-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-
     <!-- css 입력 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/common.css" type="text/css">
@@ -77,93 +73,15 @@
             <div class="header_wrap">
                 <div class="logo"><h1><a href="index.html"><img src="images/common/logo.png" alt="한국월드비전 웹진"><span class="hide">한국월드비전 웹진</span></a></h1></div>
                 <div class="vol_info pc_display">2025 SPRING  VOL. 254</div>
-                <div class="vol_info mobile_display">VOL. 253</div>
+                <div class="vol_info mobile_display">2025 SPRING  VOL. 254</div>
                 <div class="menu">
                     <button type="button">MENU</button>
                 </div>
-                <div class="angles mobile_display">
+                <!-- <div class="angles mobile_display">
                     <img src="images/common/angle-down.svg" alt="아래로 펼치기" class="down">
-                </div>
+                </div> -->
             </div> <!-- //상단 메뉴 -->
         </header>
-
-        <!-- 전체 메뉴 팝업 -->
-        <div class="my_gnb" id="my_gnb">
-            <div class="gnb_wrap">
-                <div class="mn_top">
-                    <div class="vol_info"><span>2024 WINTER</span> VOL. 253</div>
-                    <div class="close_btn"><img src="images/common/menu-close.svg" alt="메뉴 닫기"></div>
-                </div>
-                <nav>
-                    <ul class="gnb">
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="index.html">커버 스토리</a></li>
-                                <li><a href="specialStory.html">스페셜 스토리</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="patrons.html">후원자 이야기</a></li>
-                                <li><a href="flyingSeagull.html">높이 나는 갈매기</a></li>
-                                <li><a href="specialProgram.html">기획특집</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="scene01.html">현장 이야기1</a></li>
-                                <li><a href="scene02.html">현장 이야기2</a></li>
-                                <li><a href="camp.html">비전 스토어</a></li>
-                                <li><a href="news.html">새소식</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="btns">
-                    <a href="https://www.worldvision.or.kr/informationCenter/letter">지난호 보기</a>
-                </div>
-            </div><!-- //gnb_wrap -->
-
-            <script>
-                $('.my_gnb .gnb_wrap').hide();
-
-                $('.menu').click(function(){
-                    $('.my_gnb').addClass('on');
-                    $('.my_gnb .gnb_wrap').slideDown();
-                });
-                $('.close_btn').click(function(){
-                    $('.my_gnb').removeClass('on');
-                    $('.my_gnb .gnb_wrap').slideUp();
-                });
-            </script>
-        </div>
-        <div class="my_gnb02 mobile_display" id="my_gnb02">
-            <div class="my_info02">
-                <a href="javascript:void(0);" class="btn_myinfo02"><span class="hide">최상단 메뉴</span></a>
-                <div class="my_lyr02">
-                    <!--D:로그인 전 노출 메뉴-->
-                    <ul>
-                        <li><a href="/loginProcess/initLogin">로그인</a></li>
-                        <li><a href="/membership/initMembership?openYn=Y">회원가입</a></li>
-                        <li><a href="/a/light_util" class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                    </ul>
-                    <!--D:로그인 후 노출 메뉴-->
-                    <ul>
-                        <li><span class="name">월드비전</span>님</li>
-                        <li class="btn_area"><a href="/a/light_util" class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                        <li class="divide"><a href="javascript:loading_open_hreflink('https://my.worldvision.or.kr', '1');">마이월드비전</a></li>
-                        <li><a href="/loginProcess/logout">로그아웃</a></li>						
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <script>
-            $('.my_gnb02').hide();
-            $('.angles').click(function(){
-                $('.my_gnb02').toggle();
-            });
-        </script> <!-- // 전체 메뉴 팝업 -->
-
 
         <!-- 전체 메뉴 팝업 -->
         <div class="my_gnb" id="my_gnb">
@@ -340,10 +258,6 @@
         <!-- footer -->
         <div data-include-path="https://gb.worldvision.or.kr/resources/wvFrt/project/template/inc/footer.html"></div>
         <!-- //footer -->
-
-        <script>
-            AOS.init();
-        </script>
 
         <script>
             window.addEventListener('load', function () {

@@ -42,7 +42,7 @@
     .campaign #header .header_wrap { height: 44px; width: auto;}
     .campaign #header .header_wrap .logo { width: 103px; height: 21px; margin: 0;}
     .campaign #header .header_wrap .logo h1 img { width: 103px; height: 21px; }
-    .campaign #header .header_wrap .vol_info { font-weight: 400; font-size: 12px; line-height: 22px; color: #ccc; z-index: 9; }
+    .campaign #header .header_wrap .vol_info { font-weight: 400; font-size: 12px; line-height: 22px; color: #fff; z-index: 9; }
 
     .campaign #header .header_wrap .vol_info.pc_display { display: none;}
     .campaign #header .header_wrap .vol_info.mobile_display { display: block !important; margin-left: auto;}
