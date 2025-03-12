@@ -1,0 +1,72 @@
+
+#container .main-visual {
+    width: 100%;
+    height: 10vh;
+    min-height: 420px;
+    position: relative;
+}
+#container .visual-wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/advocacy/mainVbg.png);
+    background-size: 100% 100%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#container .visualImg-1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#container .visualImg-1 img {
+    margin: 0 auto;
+}
+#container .visualText {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-52%);
+    color: #fff;
+    font-size: clamp(18px, 1.8vw, 32px);
+}
+#container .visualImg-2 {
+    width: 100%;
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#container .visualImg-2 img {
+    margin: 0 auto;
+}
+
+
+#container .orangBox {
+    align-items: stretch;
+    border-top: 2px solid;
+    border-bottom: 1px solid;
+    border-color: #F56400;
+}
+#container .table-text {
+    padding: 20px 0;
+    padding-left: 20px;
+    flex: 0 0 264px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    background: #F56400;
+    color: #fff;
+    font-size: 22px;
+}
+#container .content-text {
+    padding: 24px;
+}
+#container .orangeCount {
+    width: 100%;
+}
