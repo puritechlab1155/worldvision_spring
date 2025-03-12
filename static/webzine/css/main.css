@@ -95,9 +95,9 @@
 .pagination .scroll-button { padding: 0.8vw; }
 
 .pagination button:disabled {
-    opacity: 0;
+    /* opacity: 0;
     display: none;
-    cursor: not-allowed;
+    cursor: not-allowed; */
 }
 
 @media (min-width: 2560px) {
