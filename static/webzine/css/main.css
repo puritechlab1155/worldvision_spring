@@ -127,6 +127,14 @@
     line-height: 22px;
 }
 
+.web06 #container .sub-title {
+    color: #F56400;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+
+
 
 
 @media (max-width: 767px) {
@@ -167,6 +175,10 @@
     }
 
     /* financialReporting */
+    .web06 #container .sub-title {
+        text-align: center;
+        margin-top: 15px;
+    }
 }
 
 
