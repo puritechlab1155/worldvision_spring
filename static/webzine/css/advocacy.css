@@ -1,4 +1,8 @@
 
+#container picture {
+    display: block;
+}
+
 #container .main-visual {
     width: 100%;
     height: 10vh;
