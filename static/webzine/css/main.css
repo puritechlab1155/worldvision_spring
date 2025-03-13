@@ -106,6 +106,9 @@
 #container .content-section .item-container {
     margin-top: clamp(80px, 6vw, 120px);
 }
+.sub-wrap .content-section .item-container {
+    margin-top: clamp(80px, 28vw, 143px) !important;
+}
 #container .content-section .item-table {
     justify-content: space-between;
 }
@@ -138,11 +141,11 @@
 }
 
 /* 메인 비주얼 들어가는 서브 페이지 */
-#container .main-visual {
+.sub-wrap .main-visual {
     width: 100%;
     position: relative;
 }
-#container .visual-wrap {
+.sub-wrap .visual-wrap {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -152,7 +155,7 @@
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-#container .visualImg-1 {
+.sub-wrap .visualImg-1 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -161,10 +164,10 @@
     left: 50%;
     transform: translateX(-50%);
 }
-#container .visualImg-1 img {
+.sub-wrap .visualImg-1 img {
     margin: 0 auto;
 }
-#container .visualText {
+.sub-wrap .visualText {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -172,14 +175,14 @@
     color: #fff;
     font-size: clamp(25px, 1.8vw, 32px);
 }
-#container .visualImg-2 {
+.sub-wrap .visualImg-2 {
     width: 100%;
     position: absolute;
     bottom: -22%;
     left: 50%;
     transform: translateX(-50%);
 }
-#container .visualImg-2 img {
+.sub-wrap .visualImg-2 img {
     margin: 0 auto;
 }
 #container .sub-section {
@@ -271,25 +274,25 @@
     }
 
    /* 메인 비주얼 들어가는 서브 페이지 */
-    #container .visual-wrap {
+    .sub-wrap .visual-wrap {
         border-radius: 0px;
         background-image: none;
     }
-    #container .visualText {
+    .sub-wrap .visualText {
         top: auto;
         bottom: 27.5vw;
         font-size: 18px;
     }
-    #container .visualImg-2 {
+    .sub-wrap .visualImg-2 {
         width: 45%;
         bottom: -47%;
         left: 48%;
         transform: none;
     }
-    #container .visualImg-2 img {
+    .sub-wrap .visualImg-2 img {
         width: 100%;
     }
-    #container .sub-section {
+    .sub-section {
         margin-top: clamp(50px, 25vw, 166px);
     }
     #container .orange-text {
@@ -337,7 +340,7 @@
     .web06 #container .content-section p {
         font-size: 12px;
     }
-    #container .visualText {
+    .sub-wrap .visualText {
         bottom: 27vw;
     }
 }
