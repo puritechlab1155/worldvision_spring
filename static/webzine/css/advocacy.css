@@ -47,14 +47,13 @@
 }
 #container .orangBox {
     position: relative;
-    background: lightblue;
 }
 #container .table-text {
     color: #fff;
     font-size: 22px;
     position: absolute;
-    top: 10%;
-    left: 0;
+    top: 13%;
+    left: 2%;
     transform: translateY(-50%);
 }
 #container .content-text img {
@@ -82,11 +81,10 @@
         margin-top: clamp(50px, 25vw, 166px);
     }
     #container .table-text {
-        flex: 0 0 120px;
-        padding-left: 10px;
-        font-size: 16px;
+        top: 19%;
+        left: 1vw;
     }
-    #container .content-text {
-        padding: 10px 30px;
+    #container .table-text {
+        font-size: clamp(12px, 3vw, 16px);
     }
 }
