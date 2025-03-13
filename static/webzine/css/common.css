@@ -211,7 +211,9 @@ img {
   span.pc {
     display: block;
   }
-
+  .posit-ab {
+    position: absolute;
+  }
   @media (max-width: 767px) {
     span.mob {
       display: block;
