@@ -102,8 +102,7 @@
 .main #container .content-img1 .count03 {
     width: 61%;
     top: 56%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 25%;
 }
 .main #container .content-img1 .count04 {
     width: 34%;
@@ -165,7 +164,7 @@
 }
 .main #container .content-img3 .section-title {
     top: -8%;
-    left: 47%;
+    left: 38%;
 }
 .main #container .content-img4 .section-title {
     top: 8%;
