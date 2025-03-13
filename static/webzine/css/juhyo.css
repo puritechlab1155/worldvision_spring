@@ -211,6 +211,10 @@
     cursor: pointer;
     position: relative;
 }
+.main #container .content-img .btn-item a {
+    width: 100%;
+    display: block;
+}
 .main #container .content-img .btn-item::before {
     content: "";
     display: block;
