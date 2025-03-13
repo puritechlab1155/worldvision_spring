@@ -144,6 +144,9 @@
     .all-wrap {
         padding-top: 33px !important;
     }
+    .sub-wrap {
+        padding-top: 0 !important;
+    }
     #container .arrow-title {
         font-size: 16px;
     }

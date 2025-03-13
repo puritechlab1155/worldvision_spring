@@ -57,6 +57,10 @@ img {
     color: inherit; /* 링크 기본 색상을 텍스트 색상으로 */
   }
 
+  #container picture {
+    display: block;
+  }
+
   /* 처음에는 완전히 투명하고 아래쪽에 위치 */
   .animate-on-scroll {
     opacity: 0;
@@ -151,6 +155,9 @@ img {
   }
   .m-t-15 {
     margin-top: 150px;
+  }
+  .m-t-100 {
+    margin-top: clamp(50px, 2vw, 100px);
   }
  
   .l-t-62 {

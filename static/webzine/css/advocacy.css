@@ -1,12 +1,5 @@
-
-#container picture {
-    display: block;
-}
-
 #container .main-visual {
     width: 100%;
-    height: 10vh;
-    min-height: 420px;
     position: relative;
 }
 #container .visual-wrap {
@@ -23,7 +16,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -37,7 +30,7 @@
     left: 50%;
     transform: translateX(-52%);
     color: #fff;
-    font-size: clamp(18px, 1.8vw, 32px);
+    font-size: clamp(25px, 1.8vw, 32px);
 }
 #container .visualImg-2 {
     width: 100%;
@@ -49,8 +42,9 @@
 #container .visualImg-2 img {
     margin: 0 auto;
 }
-
-
+#container .sub-section {
+    margin-top: clamp(50px, 14vw, 140px);
+}
 #container .orangBox {
     align-items: stretch;
     border-top: 2px solid;
@@ -69,8 +63,32 @@
     font-size: 22px;
 }
 #container .content-text {
-    padding: 24px;
+    padding: 30px 50px;
+    font-size: 17px;
+    line-height: 27px;
 }
 #container .orangeCount {
     width: 100%;
+}
+@media (max-width: 767px) {
+    #container .visual-wrap {
+        border-radius: 0px;
+        background-image: none;
+    }
+    #container .visualText {
+        top: 31%;
+        font-size: 18px;
+    }
+    #container .visualImg-2 {
+        width: 45%;
+        bottom: -47%;
+        left: 48%;
+        transform: none;
+    }
+    #container .visualImg-2 img {
+        width: 100%;
+    }
+    #container .sub-section {
+        margin-top: clamp(50px, 25vw, 166px);
+    }
 }
