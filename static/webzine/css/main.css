@@ -137,8 +137,94 @@
     margin-top: clamp(80px, 12vw, 220px);
 }
 
+/* 메인 비주얼 들어가는 서브 페이지 */
+#container .main-visual {
+    width: 100%;
+    position: relative;
+}
+#container .visual-wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/advocacy/mainVbg.png);
+    background-size: 100% 100%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#container .visualImg-1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#container .visualImg-1 img {
+    margin: 0 auto;
+}
+#container .visualText {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-52%);
+    color: #fff;
+    font-size: clamp(25px, 1.8vw, 32px);
+}
+#container .visualImg-2 {
+    width: 100%;
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#container .visualImg-2 img {
+    margin: 0 auto;
+}
+#container .sub-section {
+    margin-top: clamp(50px, 14vw, 140px);
+}
+#container .orangeBox {
+    position: relative;
+}
+#container .orange-text {
+    color: #fff;
+    font-size: clamp(12px, 2vw, 22px);
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+#container .content-text img {
+    width: 100%;
+}
+#container .content-img {
+    position: relative;
+}
+#container .posit-text {
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(12px , 2vw ,18px);
+    line-height: 180%;
+    font-weight: 500;
+}
+#container .advocacy-item .content-img1 .posit {
+    bottom: 3vw;
+}
+#container .advocacy-item .content-img2 .posit-text {
+    width: 50%;
+    gap: 2vw;
+    bottom: 1vw;
+    justify-content: space-between;
+}
 
-
+@media (max-width: 1020px) {
+    #container .posit-text {
+        font-size: clamp(12px , 1.5vw ,15px);
+    }
+}
 
 @media (max-width: 767px) {
     .all-wrap {
@@ -180,6 +266,45 @@
         object-fit: contain;
     }
 
+   /* 메인 비주얼 들어가는 서브 페이지 */
+    #container .visual-wrap {
+        border-radius: 0px;
+        background-image: none;
+    }
+    #container .visualText {
+        top: auto;
+        bottom: 27.5vw;
+        font-size: 18px;
+    }
+    #container .visualImg-2 {
+        width: 45%;
+        bottom: -47%;
+        left: 48%;
+        transform: none;
+    }
+    #container .visualImg-2 img {
+        width: 100%;
+    }
+    #container .sub-section {
+        margin-top: clamp(50px, 25vw, 166px);
+    }
+    #container .orange-text {
+        top: 19%;
+        left: 1vw;
+    }
+    #container .table-text {
+        font-size: clamp(12px, 5vw, 16px);
+    }
+    #container .advocacy-item .content-img  .posit {
+        font-size: clamp(12px , 2.1vw ,15px);
+    }
+    #container .advocacy-item .content-img1  .posit {
+        top: 64vw;
+    }
+    #container .advocacy-item .content-img2  .posit-text {
+        top: 20vw;
+    }
+
     /* financialReporting */
     .web06 #container .sub-title {
         text-align: center;
@@ -207,6 +332,9 @@
 @media (max-width: 480px) {
     .web06 #container .content-section p {
         font-size: 12px;
+    }
+    #container .visualText {
+        bottom: 27vw;
     }
 }
 
