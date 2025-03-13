@@ -207,7 +207,17 @@
     gap: 2vw;
     bottom: 1vw;
     justify-content: space-between;
-}/* 여기까지01~05 공통 */
+}
+#container .flex-listStyle-star {
+
+}
+#container .flex-listStyle-star .listStyle-icon {
+    
+}
+#container .flex-listStyle-star .listStyle-text {
+    
+}
+/* 여기까지01~05 공통 */
 
 
 /* 03_domesticBusiness1 */
@@ -215,6 +225,42 @@
 
 
 /* 04_domesticBusiness2 */
+.web04 .sub-wrap .visualImg-2 {
+    left: 43%;
+}
+.web04 #container .sub-item .content-img2 .posit-text {
+    width: 50%;
+    gap: 2vw;
+    bottom: 10vw;
+    justify-content: space-between;
+}
+
+.web04 .custom-listStyle1 {
+    font-size: clamp(8px, 1vw,15px);
+    color: #858585;
+    font-weight: 700;
+
+}
+.web04 .custom-listStyle1::before {
+    content: '*';
+    display: block;
+    font-size: 20px;
+    color: #858585;
+    position: relative;
+    top: 36px;
+    left: -15px;
+}
+.web04 .custom-listStyle2::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #F56400;
+    border-radius: 50%;
+    position: relative;
+    top: 21px;
+    left: -23px;
+}
 
 
 
