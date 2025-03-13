@@ -168,6 +168,9 @@
 .sub-wrap .visualImg-2 img {
     margin: 0 auto;
 }
+.sub-section .orange-top {
+    margin-top: clamp(100px, 23vw, 250px);
+}
 #container .sub-section {
     margin-top: clamp(50px, 14vw, 140px);
 }
@@ -322,10 +325,12 @@
     }
 
 
-
+    /* 04_domesticBusiness2 */
     .web04 #container .sub-item .content-img1 .posit {
         top: 48vw;
     }
+
+
 
     /* 06_financialReporting */
     .web06 #container .sub-title {
