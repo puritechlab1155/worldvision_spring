@@ -192,7 +192,7 @@
     position: relative;
 }
 #container .posit-text {
-    width: 70%;
+    width: 71.6%;
     left: 50%;
     transform: translateX(-50%);
     font-size: clamp(12px , 2vw ,18px);
@@ -228,27 +228,53 @@
 .web04 .sub-wrap .visualImg-2 {
     left: 43%;
 }
-.web04 #container .sub-item .content-img2 .posit-text {
-    width: 50%;
-    gap: 2vw;
-    bottom: 10vw;
-    justify-content: space-between;
+.web04 #container .sub-item .content-img1 .posit-11 {
+    bottom: 11vw;
+    text-align: center;
 }
-
+.web04 #container .sub-item .content-img1 .posit-2 {
+    bottom: 2vw;
+}
+.web04 #container .sub-item .content-img1 .posit-24 {
+    bottom: 24vw;
+    text-align: center;
+}
+.web04 #container .sub-item .content-img1 .posit-4 {
+    bottom: 4vw;
+}
+.web04 #container .sub-item .w-74 {
+    width: 74%;
+}
+.web04 .w-90 {
+    display: block;
+    width: 90%;
+}
+.web04 #container .sub-item .content-img2 .posit-text {
+    width: 52%;
+    /* gap: 2vw; */
+    bottom: 5vw;
+    /* justify-content: space-between; */
+}
+.web04 #container .sub-item .content-img2 .w-76 {
+    width: 76%;
+    bottom: 1vw;
+}
+.web04 #container .sub-item .content-img2 .posit-text .posit {
+    width: 50%;
+}
+.web04 #container .sub-item .content-img2 .posit-text .posit-33 {
+    width: 33%;
+}
+.web04 #container .sub-item .content-img2 .posit-text .mr-6 {
+    margin-right: 6%;
+}
+.weeb04 #container .posit-text {
+    left: 48.5%;
+}
 .web04 .custom-listStyle1 {
     font-size: clamp(8px, 1vw,15px);
     color: #858585;
     font-weight: 700;
-
-}
-.web04 .custom-listStyle1::before {
-    content: '*';
-    display: block;
-    font-size: 20px;
-    color: #858585;
-    position: relative;
-    top: 36px;
-    left: -15px;
 }
 .web04 .custom-listStyle2::before {
     content: '';
@@ -258,8 +284,8 @@
     background: #F56400;
     border-radius: 50%;
     position: relative;
-    top: 21px;
-    left: -23px;
+    top: 26px;
+    left: -29px;
 }
 
 
