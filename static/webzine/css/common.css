@@ -157,9 +157,9 @@ img {
     margin-top: 150px;
   }
   .m-t-100 {
-    margin-top: clamp(50px, 2vw, 100px);
+    margin-top: clamp(50px, 6vw, 100px);
   }
- 
+
   .l-t-62 {
     line-height: 62px;
   }
