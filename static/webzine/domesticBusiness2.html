@@ -70,7 +70,10 @@
         <header id="header">
             <!-- 상단 메뉴 -->
             <div class="header_wrap">
-                <div class="logo"><h1><a href="index.html"><img src="images/common/logo.png" alt="한국월드비전 웹진"><span class="hide">한국월드비전 웹진</span></a></h1></div>
+                <div class="logo">
+                    <h1><a href="index.html"><img src="images/common/logo.png" alt="한국월드비전 웹진"><span class="hide">한국월드비전
+                                웹진</span></a></h1>
+                </div>
                 <div class="vol_info pc_display">2025 SPRING  VOL. 254</div>
                 <div class="vol_info mobile_display">2025 SPRING  VOL. 254</div>
                 <div class="menu">
@@ -87,7 +90,7 @@
             <div class="gnb_wrap">
                 <div class="mn_top">
                     <div class="vol_info"><span>2024 WINTER</span> VOL. 253</div>
-                    <div class="close_btn"><img src="images/common/menu-close.svg" alt="메뉴 닫기"></div>
+                    <div class="close_btn"><img src="images/common/menuClose.svg" alt="메뉴 닫기"></div>
                 </div>
                 <nav>
                     <ul class="gnb">
@@ -122,11 +125,11 @@
             <script>
                 $('.my_gnb .gnb_wrap').hide();
 
-                $('.menu').click(function(){
+                $('.menu').click(function () {
                     $('.my_gnb').addClass('on');
                     $('.my_gnb .gnb_wrap').slideDown();
                 });
-                $('.close_btn').click(function(){
+                $('.close_btn').click(function () {
                     $('.my_gnb').removeClass('on');
                     $('.my_gnb .gnb_wrap').slideUp();
                 });
@@ -145,16 +148,19 @@
                     <!--D:로그인 후 노출 메뉴-->
                     <ul>
                         <li><span class="name">월드비전</span>님</li>
-                        <li class="btn_area"><a href="/a/light_util" class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                        <li class="divide"><a href="javascript:loading_open_hreflink('https://my.worldvision.or.kr', '1');">마이월드비전</a></li>
-                        <li><a href="/loginProcess/logout">로그아웃</a></li>						
+                        <li class="btn_area"><a href="/a/light_util"
+                                class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
+                        <li class="divide"><a
+                                href="javascript:loading_open_hreflink('https://my.worldvision.or.kr', '1');">마이월드비전</a>
+                        </li>
+                        <li><a href="/loginProcess/logout">로그아웃</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <script>
             $('.my_gnb02').hide();
-            $('.angles').click(function(){
+            $('.angles').click(function () {
                 $('.my_gnb02').toggle();
             });
         </script> <!-- // 전체 메뉴 팝업 -->
@@ -428,9 +434,9 @@
 
         <!-- page ctrl -->
         <div class="pagination">
-            <button id="homePage"><img src="images/common/home-button.png" alt="월드비전 웹진 홈 바로가기"></button>
-            <button id="prevPage"><img src="images/common/prev-button.png" alt="월드비전 웹진 이전 기사로 이동하기"></button>
-            <button id="nextPage"><img src="images/common/next-button.png" alt="월드비전 웹진 다음 기사로 이동하기"></button>
+            <button id="homePage"><img src="images/common/homeButton.png" alt="월드비전 웹진 홈 바로가기"></button>
+            <button id="prevPage"><img src="images/common/prevButton.png" alt="월드비전 웹진 이전 기사로 이동하기"></button>
+            <button id="nextPage"><img src="images/common/nextButton.png" alt="월드비전 웹진 다음 기사로 이동하기"></button>
             <!-- <button class="scroll-button" onclick="scrollToTop()" id="upPage"><img src="images/common/top-button.png" alt="월드비전 웹진 상단으로 이동하기"></button> -->
         </div> <!-- //page ctrl -->
 
