@@ -123,23 +123,6 @@
     margin-top: clamp(80px, 5vw, 100px) !important;
 }
 
-/* financialReporting */
-#container .financial-title .sub-title {
-    color: #F56400;
-    font-size: 12px;
-    line-height: 22px;
-}
-
-.web06 #container .sub-title {
-    color: #F56400;
-    font-size: 12px;
-    line-height: 22px;
-    margin-top: 40px;
-}
-#container .content-section .item-container-22{
-    margin-top: clamp(80px, 12vw, 220px);
-}
-
 /* 메인 비주얼 들어가는 서브 페이지 */
 .sub-wrap .main-visual {
     width: 100%;
@@ -213,18 +196,44 @@
     line-height: 180%;
     font-weight: 500;
 }
-/* 04 */
-
-
-/* 05 */
-#container .advocacy-item .content-img1 .posit {
+#container .sub-item .content-img1 .posit {
     bottom: 3vw;
 }
-#container .advocacy-item .content-img2 .posit-text {
+#container .sub-item .content-img2 .posit-text {
     width: 50%;
     gap: 2vw;
     bottom: 1vw;
     justify-content: space-between;
+}/* 여기까지01~05 공통 */
+
+
+/* 03_domesticBusiness1 */
+
+
+
+/* 04_domesticBusiness2 */
+
+
+
+/* 05_advocacyWork */
+
+
+
+/* 06_financialReporting */
+#container .financial-title .sub-title {
+    color: #F56400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.web06 #container .sub-title {
+    color: #F56400;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+#container .content-section .item-container-22{
+    margin-top: clamp(80px, 12vw, 220px);
 }
 
 @media (max-width: 1020px) {
@@ -302,17 +311,23 @@
     #container .table-text {
         font-size: clamp(12px, 5vw, 16px);
     }
-    #container .advocacy-item .content-img  .posit {
+    #container .sub-item .content-img  .posit {
         font-size: clamp(12px , 2.1vw ,15px);
     }
-    #container .advocacy-item .content-img1  .posit {
+    #container .sub-item .content-img1 .posit {
         top: 64vw;
     }
-    #container .advocacy-item .content-img2  .posit-text {
+    #container .sub-item .content-img2 .posit-text {
         top: 20vw;
     }
 
-    /* financialReporting */
+
+
+    .web04 #container .sub-item .content-img1 .posit {
+        top: 48vw;
+    }
+
+    /* 06_financialReporting */
     .web06 #container .sub-title {
         text-align: center;
         margin-top: 15px;
