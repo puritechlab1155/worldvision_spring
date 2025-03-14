@@ -107,7 +107,7 @@
     position: absolute;
 }
 .main-wrap .visualImg-container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     position: relative;
 }
@@ -121,32 +121,35 @@
     bottom: 5px;
 }
 .main-wrap .visualImg-3 {
-    right: 2%;
+    right: 1.8%;
     bottom: 10px;
     color: #fff;
     font-weight: 700;
     writing-mode: vertical-rl;
     text-orientation: sideways;
-    font-size: clamp(8px, 1vw, 11px);
+    font-size: clamp(8px, 1vw, 17px);
 }
 .main-wrap .visualImg-4 {
     bottom: 37%;
-    right: 24px;
+    right: 34px;
 }
 .main-wrap .visual-link {
     position: absolute;
     top: 10px;
     left: 20px;
     color: #fff;
-    font-size: 11px
+    font-size: clamp(8px, 1vw, 16px);
 }
 .main-wrap .main-link {
-    line-height: 21px;
+    line-height: 1.8vw;
 }
 .main-wrap .main-link a {
     font-weight: 700;
-    border-bottom: 2px solid #fff;
-} /* // 메인 비주얼 */
+    border-bottom: 1px solid #fff;
+} 
+.main-wrap .main-link .sub {
+    line-height: 1.5vw;
+}/* // 메인 비주얼 */
 
 .main #container .content-section {
     padding: 0px !important;
@@ -557,6 +560,9 @@
     top: 26px;
     left: -29px;
 }
+.web04 #container .sub-item .content-img1 .posit {
+	top: 3%
+}
 
 
 
@@ -648,11 +654,12 @@
         left: 20px;
         bottom: 10px;
         text-shadow: 1px 1px 8px #000;
-        font-size: 11px;
+        font-size: 1.8vw;
     }
     .main-wrap .visualImg-4 {
         width: fit-content;
-        top: 12%;
+        height: fit-content;
+        top: 16%;
         bottom: 0;
         right: 20px;
     }
@@ -661,7 +668,14 @@
         bottom: 162px;
         left: 20px;
         text-shadow: 1px 1px 8px #000;
-    }/* // 메인 비주얼 */
+        font-size: 2.2vw;
+    } 
+    .main-wrap .main-link {
+        line-height: 7vw;
+    } 
+    .main-wrap .main-link .sub {
+        line-height: 4vw;
+    } /* // 메인 비주얼 */
     .main #container .content-img1 .posit-title {
         top: 3.5%;
         left: 4vw;
@@ -726,7 +740,7 @@
     }
     .main #container .content-img5 .section-title {
         font-size: clamp(8px, 2.9vw, 23px) !important;
-    } /* //메인페이지 */
+    }  /* //메인페이지 */
 
     .all-wrap {
         padding-top: 33px !important;
