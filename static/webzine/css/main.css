@@ -354,9 +354,9 @@
     font-size: 32px;
     line-height: 42px;
 }
-#container .content-title > span {
-    /* display: block; */
-}
+/* #container .content-title > span {
+    display: block;
+} */
 #container .content-section .item-container {
     margin-top: clamp(80px, 6vw, 120px);
 }
@@ -462,7 +462,7 @@
     bottom: 1vw;
     justify-content: space-between;
 }
-#container .flex-listStyle-star {
+/* #container .flex-listStyle-star {
 
 }
 #container .flex-listStyle-star .listStyle-icon {
@@ -470,7 +470,7 @@
 }
 #container .flex-listStyle-star .listStyle-text {
     
-}
+} */
 /* 여기까지01~05 공통 */
 
 
