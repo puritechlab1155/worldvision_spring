@@ -1,7 +1,11 @@
-/* font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-/* font-family: "Noto Sans KR", sans-serif; */
 
+@font-face {
+  font-family: 'Chilgok'; 
+  src: url('../font/Chilgok_lws.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
     margin: 0 ;
@@ -33,7 +37,9 @@ html, body {
     /* overflow: hidden; */
 }
 
-
+.f-chilgok {
+  font-family: 'Chilgok', sans-serif;
+}
 /* 이미지와 비디오의 최대 크기를 부모 요소에 맞추도록 설정video */
 img {
     max-width: 100%;
