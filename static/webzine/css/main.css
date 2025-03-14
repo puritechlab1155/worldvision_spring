@@ -462,15 +462,6 @@
     bottom: 1vw;
     justify-content: space-between;
 }
-/* #container .flex-listStyle-star {
-
-}
-#container .flex-listStyle-star .listStyle-icon {
-    
-}
-#container .flex-listStyle-star .listStyle-text {
-    
-} */
 /* 여기까지01~05 공통 */
 
 
@@ -482,12 +473,15 @@
 .web04 .sub-wrap .visualImg-2 {
     left: 43%;
 }
-.web04 #container .sub-item .content-img1 .posit-11 {
-    bottom: 11vw;
+.web04 #container .sub-item .content-img1 .posit-10 {
+    bottom: 10vw;
     text-align: center;
 }
 .web04 #container .sub-item .content-img1 .posit-2 {
     bottom: 2vw;
+}
+.web04 #container .sub-item .content-img1 .posit-2 .list-style-flex {
+    display: flex;
 }
 .web04 #container .sub-item .content-img1 .posit-24 {
     bottom: 24vw;
@@ -504,28 +498,37 @@
     width: 90%;
 }
 .web04 #container .sub-item .content-img2 .posit-text {
-    width: 52%;
-    /* gap: 2vw; */
+    width: 59%;
+    gap: 2.5vw;
     bottom: 5vw;
     /* justify-content: space-between; */
 }
+.web04 #container .sub-item .w-72 {
+    width: 72%;
+}
 .web04 #container .sub-item .content-img2 .w-76 {
-    width: 76%;
+    width: 77.4%;
     bottom: 1vw;
 }
 .web04 #container .sub-item .content-img2 .posit-text .posit {
     width: 50%;
 }
-.web04 #container .sub-item .content-img2 .posit-text .posit-33 {
-    width: 33%;
+.web04 #container .sub-item .content-img2 .posit-text .posit-29 {
+    width: 29%;
 }
-.web04 #container .sub-item .content-img2 .posit-text .mr-6 {
-    margin-right: 6%;
+.web04 #container .sub-item .content-img2 .posit-text .posit-30 {
+    width: 30%;
 }
 .weeb04 #container .posit-text {
     left: 48.5%;
 }
-.web04 .custom-listStyle1 {
+.web04 .list-style-flex .star {
+    align-items: stretch;
+    font-size: clamp(8px, 1vw,15px);
+    color: #858585;
+    font-weight: 700;
+}
+.web04 .custom-listStyle1{
     font-size: clamp(8px, 1vw,15px);
     color: #858585;
     font-weight: 700;
@@ -571,6 +574,11 @@
         top: -3%;
         left: 12vw;
         line-height: 250%;
+    }
+    .web04 .sub-wrap .visualImg-2 {
+        width: 80%;
+        bottom: -34%;
+        left: 44%;
     }
 }
 
@@ -764,9 +772,15 @@
 
 
     /* 04_domesticBusiness2 */
-    .web04 #container .sub-item .content-img1 .posit {
-        top: 48vw;
+    .web04 #container .sub-item .content-img1 .w-72 {
+        top: 18vw;
+        width: 69%;
     }
+    .web04 .sub-wrap .visualImg-2 {
+        bottom: -38%;
+        left: -9%;
+    }
+
 
 
 
