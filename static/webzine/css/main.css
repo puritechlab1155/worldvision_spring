@@ -424,7 +424,7 @@
 .sub-wrap .visualText {
     position: absolute;
     top: 35%;
-    left: 50%;
+    left: 47%;
     transform: translateX(-52%);
     color: #fff;
     font-size: clamp(25px, 1.8vw, 32px);
@@ -487,27 +487,33 @@
 
 
 /* 04_domesticBusiness2 */
-.web04 .sub-wrap .visualImg-2 {
-    left: 43%;
+.sub-wrap .visualImg-2 {
+    left: -8%;
+}
+.web04 .orange-bottom {
+    border-bottom: 1px solid #F56400;
+    padding-bottom: 50px;
 }
 .web04 #container .sub-item .content-img1 .posit-10 {
-    bottom: 10vw;
+    /* bottom: 10vw; */
+    top: 38%;
     text-align: center;
 }
 .web04 #container .sub-item .content-img1 .posit-2 {
-    bottom: 2vw;
+    /* bottom: 2vw; */
 }
 .web04 #container .sub-item .content-img1 .posit-2 .list-style-flex {
     display: flex;
 }
-.web04 #container .sub-item .content-img1 .posit-24 {
-    bottom: 24vw;
+.web04 #container .sub-item .content-img1 .posit-40 {
+    top: 40%;
     text-align: center;
 }
 .web04 #container .sub-item .content-img1 .posit-4 {
     bottom: 4vw;
 }
 .web04 #container .sub-item .w-74 {
+    top: 80%;
     width: 74%;
 }
 .web04 .w-90 {
@@ -515,17 +521,17 @@
     width: 90%;
 }
 .web04 #container .sub-item .content-img2 .posit-text {
-    width: 59%;
-    gap: 2.5vw;
-    bottom: 5vw;
-    /* justify-content: space-between; */
+    width: 53.5%;
 }
-.web04 #container .sub-item .w-72 {
-    width: 72%;
+.web04 #container .sub-item .content-img2 .t-39 {
+    top:39%;
+}
+.web04 #container .sub-item .content-img2 .posit-x {
+    transform: translateX(-10%);
 }
 .web04 #container .sub-item .content-img2 .w-76 {
     width: 77.4%;
-    bottom: 1vw;
+    top:67%;
 }
 .web04 #container .sub-item .content-img2 .posit-text .posit {
     width: 50%;
@@ -562,9 +568,18 @@
     left: -29px;
 }
 .web04 #container .sub-item .content-img1 .posit {
-	top: 3%
+	top: 3%;
 }
-
+.web04 #container .sub-item .content-img1 .t-30 {
+	top: 30%;
+    width: 72%;
+}
+.web04 #container .sub-item .content-img1 .t-80 {
+	top: 80%;
+}
+.web04 #container .sub-item .content-img2 .posit-x-r {
+    transform: translateX(14%);
+}
 
 
 /* 05_advocacyWork */
@@ -596,9 +611,14 @@
         line-height: 250%;
     }
     .web04 .sub-wrap .visualImg-2 {
+        top: 59%;
+        left: 1%;
+    }
+    .web04 #container .sub-item .w-74 {
         width: 80%;
-        bottom: -34%;
-        left: 44%;
+    }
+    .sub-wrap .visualText {
+        left: 45%;
     }
 }
 
@@ -793,10 +813,9 @@
         font-size: 18px;
     }
     .sub-wrap .visualImg-2 {
-        width: 45%;
-        bottom: -47%;
-        left: 48%;
-        transform: none;
+        width: 80%;
+        top: 90% !important;
+        left: -11% !important;
     }
     .sub-wrap .visualImg-2 img {
         width: 100%;
@@ -823,25 +842,58 @@
 
 
     /* 04_domesticBusiness2 */
-    .web04 #container .sub-item .content-img1 .w-72 {
-        top: 18vw;
-        width: 69%;
-    }
-    .web04 .sub-wrap .visualImg-2 {
-        bottom: -38%;
-        left: -9%;
-    }
-    .web04 #container .sub-item .content-img1 .posit-10 {
-        bottom: 22vw;
+    .web04 .sub-wrap .visualText {
+        top: 31.5%;
     }
     .web04 #container .sub-item .content-img1 .posit-2 {
-        bottom: 15vw;
+        top: 71%;
     }
     .web04 #container .orangeBox .m-position {
-        bottom: 13vw;
+        top:11%
     }
-
-
+    .web04 .orange-bottom {
+        border-bottom: none;
+    }
+    .web04 #container .sub-item .content-img1 .t-80 {
+        top: 70%;
+    }
+    .web04 #container .sub-item .content-img1 .t-30 {
+        top: 18%;
+    }
+    .web04 #container .sub-item .content-img2 .posit-text {
+        font-size: clamp(8px, 1vw, 15px);
+        top: 40%;
+    }
+    .web04 .custom-listStyle2::before {
+        top: 13%;
+        left: -15px;
+        width: 10px;
+        height: 10px;
+    }
+    .web04 #container .sub-item .content-img1 .posit-40 {
+        width: 90%;
+    }
+    .web04 #container .sub-item .content-img1 .posit-4 {
+        top : 74%
+    }
+    .web04 #container .sub-item .content-img2 .posit-text .posit-29 {
+        width: 50% !important;
+    }
+    .web04 #container .sub-item .content-img2 .w-76 {
+        flex-wrap: wrap;
+    }
+    .web04 #container .sub-item .content-img2 .flex-1 {
+        flex: 1;
+    }
+    .web04 #container .sub-item .content-img2 .flex-100 {
+        flex: 0 0 100;
+        width: 100%;
+        position: relative;
+        top: 18%;
+    }
+    .web04 #container .sub-item .content-img2 .w-76 {
+        top : 36%;
+    }
 
 
     /* 06_financialReporting */
@@ -868,12 +920,6 @@
     
 }
 
-@media (max-width: 550px) {
-    .web04 #container .sub-item .content-img1 .posit-2 {
-        bottom: 15vw;
-    }
-}
-
 @media (max-width: 480px) {
     .main-wrap .visualImg-4 {
         top: 19vw;
@@ -892,6 +938,9 @@
     .web04 #container .sub-item .content-img1 .posit-10 {
         bottom: 18vw;
     }
+    .web04 #container .sub-item .content-img1 .posit-2 {
+
+    }
     /* 06 */
     .web06 #container .content-section p {
         font-size: 12px;
@@ -899,6 +948,18 @@
     .sub-wrap .visualText {
         bottom: 27vw;
     }
+    .web04 #container .sub-item .content-img2 .posit-text {
+        width: 69%;
+        font-size: clamp(8px, 1vw, 15px);
+        top: 31%;
+    }
+    .web04 .custom-listStyle2::before {
+        width: 10px;
+        height: 10px;
+        top: 14px;
+        left: -14px;
+    }
+
 }
 
 
