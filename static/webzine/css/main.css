@@ -130,8 +130,9 @@
     font-size: clamp(8px, 1vw, 17px);
 }
 .main-wrap .visualImg-4 {
+    width: 6%;
     bottom: 37%;
-    right: 34px;
+    right: 2vw;
 }
 .main-wrap .visual-link {
     position: absolute;
@@ -657,24 +658,24 @@
         font-size: 1.8vw;
     }
     .main-wrap .visualImg-4 {
-        width: fit-content;
+        width: 13vw;
         height: fit-content;
-        top: 16%;
+        top: 18vw;
         bottom: 0;
-        right: 20px;
+        right: 3vw;
     }
     .main-wrap .visual-link {
         top: auto;
         bottom: 162px;
         left: 20px;
         text-shadow: 1px 1px 8px #000;
-        font-size: 2.2vw;
+        font-size: clamp(10px , 2.2vw, 14px);
     } 
     .main-wrap .main-link {
-        line-height: 7vw;
+        line-height: 6vw;
     } 
     .main-wrap .main-link .sub {
-        line-height: 4vw;
+        line-height: 3.8vw;
     } /* // 메인 비주얼 */
     .main #container .content-img1 .posit-title {
         top: 3.5%;
@@ -874,6 +875,16 @@
 }
 
 @media (max-width: 480px) {
+    .main-wrap .visualImg-4 {
+        top: 19vw;
+    } 
+    .main-wrap .main-link {
+        line-height: 8vw;
+    } 
+    .main-wrap .main-link .sub {
+        line-height: 5vw;
+    } /* //메인비주얼 */
+
     .main #container .content-img4 .section-title {
         top: 8%;
     }
