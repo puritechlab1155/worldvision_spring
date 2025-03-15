@@ -424,7 +424,7 @@
 .sub-wrap .visualText {
     position: absolute;
     top: 35%;
-    left: 47%;
+    left: 46.5%;
     transform: translateX(-52%);
     color: #fff;
     font-size: clamp(25px, 1.8vw, 32px);
@@ -481,10 +481,14 @@
 }
 /* 여기까지01~05 공통 */
 
+/* 01_intBusiness*/
+.web01 .sub-wrap .visualImg-2 {
+    left: 0%;
+}
 
-/* 03_domesticBusiness1 */
+/* 02 */
 
-
+/* 03 */
 
 /* 04_domesticBusiness2 */
 .sub-wrap .visualImg-2 {
