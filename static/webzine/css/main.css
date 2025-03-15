@@ -492,15 +492,56 @@
     top: 69%;
     gap: 4vw;
 }
+.web02 .content-img3 .posit-text .posit {
+    flex: 1;
+}
 .web02 .content-img4 .posit-text {
     width: 35% !important;
     top: 30%;
     left: 76% !important;
 }
-.web02 .content-img4 .posit-text .bold {
+.web02 .bold {
     display: block;
     text-align: center;
     font-weight: 700;
+}
+.web02 .content-img5 .posit-text {
+    width: 35% !important;
+    top: 30%;
+    left: 31% !important;
+}
+.web02 .orange-text3 {
+    top: 9% !important;
+}
+.web02 .content-img6 .posit-text {
+    width: 100% !important;
+}
+.web02 .content-img1 .posit-Bubble2 {
+    width: 35% !important;
+    top: 37%;
+    left: 75% !important;
+}
+.web02 .content-img1 .posit-Bubble3 {
+    width: 27% !important;
+    top: 34%;
+    left: 17% !important;
+}
+.web02 .content-img1 .posit-Bubble4 {
+    width: 27% !important;
+    top: 31%;
+    left: auto !important;
+    right: -10.5%;
+}
+.web02 .orange-text5 {
+    top: 51% !important;
+}
+.web02 .content-img7 .posit-text {
+    width: 48.6% !important;
+    top: 45%;
+    gap: 3vw;
+}
+.web02 .content-img7 .posit-text .posit {
+    flex: 1;
 }
 
 @media (max-width: 767px) { 
@@ -530,8 +571,41 @@
         left: 51% !important;
         font-size: clamp(12px, 3vw, 24px) !important;
     }
-    .web02 .content-img4 .posit-text .bold {
+    .web02 .posit-text .bold {
         margin-bottom: 1vw;
+    }
+    .web02 .content-img5 .posit-text {
+        width: 73% !important;
+        top: 16%;
+        left: 51% !important;
+    }
+    .web02 .orange-text3 {
+        top: 16% !important;
+    }
+    .web02 .posit-Bubble {
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    .web02 .content-img1 .posit-Bubble2 {
+        width: 87% !important;
+        top: 15%;
+        left: 51% !important;
+        
+    }
+    .web02 .content-img1 .posit-Bubble3 {
+        width: 80% !important;
+        top: 13%;
+        left: 52% !important;
+    }
+    .web02 .content-img1 .posit-Bubble4 {
+        width: 80% !important;
+        top: 75%;
+        left: auto !important;
+        right: -29.5%;
+    }
+    .web02 .content-img7 .posit-text {
+        width: 87.6% !important;
+        top: 25%;
+        gap: 18vw;
     }
 }
 
