@@ -509,6 +509,7 @@
     width: 35% !important;
     top: 30%;
     left: 31% !important;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
 }
 .web02 .orange-text3 {
     top: 9% !important;
@@ -543,70 +544,8 @@
 .web02 .content-img7 .posit-text .posit {
     flex: 1;
 }
-
-@media (max-width: 767px) { 
-    .web02 .sub-wrap .visualImg-2 {
-        top: 81% !important;
-        left: 8% !important;
-    }
-    .web02 .orange-text1 {
-        top: 22% !important;
-    }
-    .web02 .content-img3 .posit-text {
-        width: 83% !important;
-        flex-wrap: wrap;
-        top: 25%;
-        gap: 38vw 0;
-        justify-content: space-between;
-    }
-    .web02 .content-img3 .posit-text .posit {
-        flex: 0 0 40%;
-    }
-    .web02 .content-img3 .posit-text .posit3 {
-        flex: 0 0 40%;
-    }
-    .web02 .content-img4 .posit-text {
-        width: 87% !important;
-        top: 15%;
-        left: 51% !important;
-        font-size: clamp(12px, 3vw, 24px) !important;
-    }
-    .web02 .posit-text .bold {
-        margin-bottom: 1vw;
-    }
-    .web02 .content-img5 .posit-text {
-        width: 73% !important;
-        top: 16%;
-        left: 51% !important;
-    }
-    .web02 .orange-text3 {
-        top: 16% !important;
-    }
-    .web02 .posit-Bubble {
-        font-size: clamp(12px, 3vw, 24px) !important;
-    }
-    .web02 .content-img1 .posit-Bubble2 {
-        width: 87% !important;
-        top: 15%;
-        left: 51% !important;
-        
-    }
-    .web02 .content-img1 .posit-Bubble3 {
-        width: 80% !important;
-        top: 13%;
-        left: 52% !important;
-    }
-    .web02 .content-img1 .posit-Bubble4 {
-        width: 80% !important;
-        top: 75%;
-        left: auto !important;
-        right: -29.5%;
-    }
-    .web02 .content-img7 .posit-text {
-        width: 87.6% !important;
-        top: 25%;
-        gap: 18vw;
-    }
+.web02 .posit {
+    line-height: 2.5vw;
 }
 
 /* 03 */
@@ -1000,6 +939,77 @@
         top: 20vw;
     }
 
+    /* 02 */
+    .web02 .posit {
+        line-height: 3.5vw;
+        font-size: clamp(10px, 2.1vw, 15px) !important;
+    }
+    .web02 .sub-wrap .visualImg-2 {
+        top: 81% !important;
+        left: 8% !important;
+    }
+    .web02 .orange-text1 {
+        top: 22% !important;
+    }
+    .web02 .content-img3 .posit-text {
+        width: 83% !important;
+        flex-wrap: wrap;
+        top: 25%;
+        gap: 38vw 0;
+        justify-content: space-between;
+    }
+    .web02 .content-img3 .posit-text .posit {
+        flex: 0 0 40%;
+    }
+    .web02 .content-img3 .posit-text .posit3 {
+        flex: 0 0 40%;
+    }
+    .web02 .content-img4 .posit-text {
+        width: 87% !important;
+        top: 15%;
+        left: 51% !important;
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    .web02 .posit-text .bold {
+        margin-bottom: 1vw;
+    }
+    .web02 .content-img5 .posit-text {
+        width: 73% !important;
+        top: 16%;
+        left: 51% !important;
+        font-size: clamp(10px, 3vw, 24px) !important;
+    }
+    .web02 .orange-text3 {
+        top: 16% !important;
+    }
+    .web02 .posit-Bubble {
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    .web02 .content-img1 .posit-Bubble2 {
+        width: 87% !important;
+        top: 15%;
+        left: 51% !important;
+        
+    }
+    .web02 .content-img1 .posit-Bubble3 {
+        width: 80% !important;
+        top: 13%;
+        left: 52% !important;
+    }
+    .web02 .content-img1 .posit-Bubble4 {
+        width: 80% !important;
+        top: 75%;
+        left: auto !important;
+        right: -29.5%;
+    }
+    .web02 .content-img7 .posit-text {
+        width: 87.6% !important;
+        top: 25%;
+        gap: 18vw;
+    }
+    .web02 .content-img7 .posit {
+        line-height: 6vw;
+    }
 
     /* 04_domesticBusiness2 */
     .web04 .sub-wrap .visualText {
@@ -1126,6 +1136,11 @@
     .main-wrap .main-link .sub {
         line-height: 5vw;
     } /* //메인비주얼 */
+
+    /* 02 */
+    .web02 .posit {
+        line-height: 160%;
+    }
 
     .main #container .content-img4 .section-title {
         top: 8%;
