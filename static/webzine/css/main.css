@@ -583,7 +583,6 @@
 
 
 /* 05_advocacyWork */
-/* web05 */
 .web05 .sub-wrap .visualImg-2 {
     left: -1%;
 }
@@ -622,56 +621,6 @@
 .web05 #container .orange-text3 {
     top: 12%;
     left: 2.5%;
-}
-
- /* 05 */
-@media (max-width: 767px) {
-    .web05 .sub-wrap .visualImg-2 {
-        width: 41%;
-        left: auto !important;
-        right: 0;
-    }
-    .web05 #container .sub-item .content-img3 .posit {
-        top: 27%;
-    }
-    .web05 #container .orange-text2 {
-        top: 50%;
-        left: 2.5%;
-    }
-    .web05 #container .sub-item .content-img4 .posit {
-        top: 60%;
-    }
-    .web05 #container .sub-item .content-img7 .posit-text {
-        top: 59%;
-    }
-    .web05 #container .sub-item .content-img8 .posit1 {
-        width: 100% !important;
-        font-size: clamp(12px, 2vw, 18px);
-    }
-    .web05 #container .sub-item .content-img8 .posit-text1 {
-        top: 50vw !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .web05 #container .sub-item .content-img2 .posit-text {
-        top: 27vw;
-    }
-
-    .web05 #container .sub-item .content-img2 .posit-text {
-        width: 94%;
-        height: fit-content;
-        gap: 12vw;
-    }
-}
-@media (max-width: 480px) {
-    .web05 #container .sub-item .content-img3 .posit {
-        top: 20%;
-    }
-    .web05 #container .sub-item .content-img8 .posit1 {
-        width: 80% !important;
-        top: 18% !important;
-    }
 }
 
 
@@ -981,6 +930,42 @@
         top : 36%;
     }
 
+    /* 05 */
+    .web05 .sub-wrap .visualImg-2 {
+        width: 41%;
+        left: auto !important;
+        right: 0;
+    }
+    .web05 #container .sub-item .content-img3 .posit {
+        top: 27%;
+    }
+    .web05 #container .orange-text2 {
+        top: 50%;
+        left: 2.5%;
+    }
+    .web05 #container .sub-item .content-img4 .posit {
+        top: 60%;
+    }
+    .web05 #container .sub-item .content-img7 .posit-text {
+        top: 59%;
+    }
+    .web05 #container .sub-item .content-img8 .posit1 {
+        width: 100% !important;
+        font-size: clamp(12px, 2vw, 18px);
+    }
+    .web05 #container .sub-item .content-img8 .posit-text1 {
+        top: 50vw !important;
+    }
+    .web05 #container .sub-item .content-img2 .posit-text {
+        top: 27vw;
+    }
+
+    .web05 #container .sub-item .content-img2 .posit-text {
+        width: 94%;
+        height: fit-content;
+        gap: 12vw;
+    }
+
 
     /* 06_financialReporting */
     .web06 #container .sub-title {
@@ -1026,6 +1011,14 @@
     }
     .web04 #container .sub-item .content-img1 .posit-2 {
 
+    }
+    /*  05 */
+    .web05 #container .sub-item .content-img3 .posit {
+        top: 20%;
+    }
+    .web05 #container .sub-item .content-img8 .posit1 {
+        width: 80% !important;
+        top: 18% !important;
     }
     /* 06 */
     .web06 #container .content-section p {
