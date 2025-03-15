@@ -584,6 +584,9 @@
 
 /* 05_advocacyWork */
 /* web05 */
+.web05 .sub-wrap .visualImg-2 {
+    left: -1%;
+}
 .web05 #container .sub-item .content-img3 .posit {
     top: 16%;
 }
@@ -623,6 +626,11 @@
 
  /* 05 */
 @media (max-width: 767px) {
+    .web05 .sub-wrap .visualImg-2 {
+        width: 41%;
+        left: auto !important;
+        right: 0;
+    }
     .web05 #container .sub-item .content-img3 .posit {
         top: 27%;
     }
@@ -891,15 +899,12 @@
     .sub-wrap .visualText {
         top: auto;
         bottom: 27.5vw;
-        font-size: 18px;
+        font-size: clamp(12px, 3vw, 21px);
     }
     .sub-wrap .visualImg-2 {
         width: 80%;
         top: 90% !important;
         left: -11% !important;
-    }
-    .sub-wrap .visualImg-2 img {
-        width: 100%;
     }
     .sub-section {
         margin-top: clamp(50px, 25vw, 166px);
@@ -1027,8 +1032,8 @@
         font-size: 12px;
     }
     .sub-wrap .visualText {
-        top: 28% !important;
-        left: 43%;
+        top: 30% !important;
+        left: 44%;
     }
     .web04 #container .sub-item .content-img2 .posit-text {
         width: 69%;
