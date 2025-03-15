@@ -481,12 +481,59 @@
 }
 /* 여기까지01~05 공통 */
 
-/* 01_intBusiness*/
-.web01 .sub-wrap .visualImg-2 {
+/* 01*/
+
+/* 02_intBusiness2 */
+.web02 .sub-wrap .visualImg-2 {
     left: 0%;
 }
+.web02 .content-img3 .posit-text {
+    width: 65.6%;
+    top: 69%;
+    gap: 4vw;
+}
+.web02 .content-img4 .posit-text {
+    width: 35% !important;
+    top: 30%;
+    left: 76% !important;
+}
+.web02 .content-img4 .posit-text .bold {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
 
-/* 02 */
+@media (max-width: 767px) { 
+    .web02 .sub-wrap .visualImg-2 {
+        top: 81% !important;
+        left: 8% !important;
+    }
+    .web02 .orange-text1 {
+        top: 22% !important;
+    }
+    .web02 .content-img3 .posit-text {
+        width: 83% !important;
+        flex-wrap: wrap;
+        top: 25%;
+        gap: 38vw 0;
+        justify-content: space-between;
+    }
+    .web02 .content-img3 .posit-text .posit {
+        flex: 0 0 40%;
+    }
+    .web02 .content-img3 .posit-text .posit3 {
+        flex: 0 0 40%;
+    }
+    .web02 .content-img4 .posit-text {
+        width: 87% !important;
+        top: 15%;
+        left: 51% !important;
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    .web02 .content-img4 .posit-text .bold {
+        margin-bottom: 1vw;
+    }
+}
 
 /* 03 */
 
@@ -857,7 +904,7 @@
     .sub-wrap .visualImg-2 {
         width: 80%;
         top: 90% !important;
-        left: -11% !important;
+        left: -11%;
     }
     .sub-section {
         margin-top: clamp(50px, 25vw, 166px);
