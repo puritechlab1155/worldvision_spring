@@ -1281,6 +1281,10 @@
         left: 11% !important;
         width: 80% !important;
     }
+    .web03 .content-img3 .w-70 {
+        width: 70% !important;
+        left: 68% !important;
+    }
 }
     
 
@@ -1326,6 +1330,9 @@
     }
     .web04 #container .sub-item .content-img2 .w-76 {
         top : 36%;
+    }
+    .web04 .f-s-m {
+        font-size: clamp(11px, 2.1vw, 15px) !important;
     }
 
     /* 05 */
