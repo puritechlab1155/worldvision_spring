@@ -92,6 +92,11 @@
     font-weight: 700;
     color: #F56400;
 }
+.main #container .content-img .btn-item:hover {
+    background: #F56400;
+    color: #fff;
+    font-weight: 700;
+}
 
 /* 메인페이지 */
 #wrap.main {
@@ -114,7 +119,7 @@
 .main-wrap .visualImg-container img {
     width: 100%;
 }
-.main-wrap .visualImg-2 {
+.main .main-wrap .visualImg-2 {
     width: 96%;
     left: 50%;
     transform: translateX(-50%);
@@ -401,6 +406,9 @@
 .m-t-250 {
     margin-top: clamp(100px, 15vw, 250px);
 }
+.top-9
+{ top: 9.5% !important }
+
 .sub-wrap .main-visual {
     width: 100%;
     position: relative;
@@ -431,7 +439,6 @@
     position: absolute;
     top: 35%;
     left: 46.5%;
-    transform: translateX(-52%);
     color: #fff;
     font-size: clamp(25px, 1.8vw, 32px);
 }
@@ -440,7 +447,6 @@
     position: absolute;
     bottom: -22%;
     left: 50%;
-    transform: translateX(-50%);
 }
 .sub-wrap .visualImg-2 img {
     margin: 0 auto;
@@ -458,7 +464,7 @@
     color: #fff;
     font-size: clamp(12px, 2vw, 22px);
     position: absolute;
-    top: 13%;
+    top: 12%;
     left: 2%;
     transform: translateY(-50%);
 }
@@ -588,7 +594,7 @@
     font-size: clamp(9px, 1.4vw, 18px) !important;
 }
 .web02 .orange-text3 {
-    top: 9% !important;
+    top: 7% !important;
 }
 .web02 .content-img6 .posit-text {
     width: 100% !important;
@@ -612,7 +618,7 @@
     right: -10.5%;
 }
 .web02 .orange-text5 {
-    top: 51% !important;
+    top: 35% !important;
 }
 .web02 .content-img7 .posit-text {
     width: 48.6% !important;
@@ -622,9 +628,9 @@
 .web02 .content-img7 .posit-text .posit {
     flex: 1;
 }
-.web02 .posit {
-    line-height: 2.5vw;
-}
+/* .web02 .posit, .web01 .posit, .web03 .posit, .web04 .posit, .web05 .posit {
+    line-height: 2.2vw !important;
+} */
 .web02 .content-img7 .posit {
     line-height: 2vw
 }
@@ -633,7 +639,7 @@
     top: 78%;
 }
 .web03 .w-70 {
-    /* top: 83%; */
+    top: 83% !important;
     width: 70% !important;
 }
 .web03 .t-20 {
@@ -848,7 +854,10 @@
     }
     .web04 .sub-wrap .visualImg-2 {
         top: 59%;
-        left: 1%;
+        width: 74%;
+    }
+    .sub-wrap .visualImg-2 {
+        left: 5%;
     }
     .web04 #container .sub-item .w-74 {
         width: 80%;
@@ -1259,24 +1268,14 @@
     
 
     /* 04_domesticBusiness2 */
-    .web04 .sub-wrap .visualText {
-        top: 31.5%;
-    }
-    .web04 #container .sub-item .content-img1 .posit-2 {
-        top: 71%;
-    }
+
     .web04 #container .orangeBox .m-position {
-        top:11%
+        top:9.5%
     }
     .web04 .orange-bottom {
         border-bottom: none;
     }
-    .web04 #container .sub-item .content-img1 .t-80 {
-        top: 70%;
-    }
-    .web04 #container .sub-item .content-img1 .t-30 {
-        top: 18%;
-    }
+
     .web04 #container .sub-item .content-img2 .posit-text {
         font-size: clamp(8px, 1vw, 15px);
         top: 40%;
@@ -1371,7 +1370,7 @@
         margin-top: 25px;
     }
     
-}
+
 
 @media (max-width: 480px) {
     .main-wrap .visualImg-4 {
