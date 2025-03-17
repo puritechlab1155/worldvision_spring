@@ -1246,12 +1246,16 @@
     .mob-t-72 {
         top: 72% !important;
     }
-    .web03 .content-img1 .t-78 {
+    /* .web03 .content-img1 .t-78 {
         top: 62%;
-    }
+    } */
     .web03 .content-img2 .mob-ft {
         font-size: clamp(12px, 3vw, 24px) !important;
+        top: 23% !important;
+        left: 11% !important;
+        width: 80% !important;
     }
+}
     
 
     /* 04_domesticBusiness2 */
