@@ -1285,7 +1285,7 @@
         width: 70% !important;
         left: 68% !important;
     }
-}
+
     
 
     /* 04_domesticBusiness2 */
@@ -1334,18 +1334,25 @@
     .web04 .f-s-m {
         font-size: clamp(11px, 2.1vw, 15px) !important;
     }
+    .web04 .posit-ab-04{
+        position: absolute;
+        width: 72% !important;
+        left: 73% !important;
+        gap: 3vw;
+        top: 44%;
+    }
 
     /* 05 */
     .web05 .sub-wrap .visualImg-2 {
-        width: 41%;
-        left: auto !important;
-        right: 0;
+        width: 50%;
+        top: 95% !important;
+        left: 48%;
     }
     .web05 #container .sub-item .content-img3 .posit {
         top: 27%;
     }
     .web05 #container .orange-text2 {
-        top: 50%;
+        top: 35%;
         left: 2.5%;
     }
     .web05 #container .sub-item .content-img4 .posit {
@@ -1362,7 +1369,9 @@
         top: 50vw !important;
     }
     .web05 #container .sub-item .content-img2 .posit-text {
-        top: 27vw;
+        width: 72%;
+        height: fit-content;
+        gap: 12vw;
     }
 
     .web05 #container .sub-item .content-img2 .posit-text {
@@ -1370,8 +1379,9 @@
         height: fit-content;
         gap: 12vw;
     }
-
-
+    .web05 #container .sub-item .content-img2 .posit-text {
+        top: 40%;
+    }
     /* 06_financialReporting */
     .web06 #container .sub-title {
         text-align: center;
@@ -1394,7 +1404,7 @@
         margin-top: 25px;
     }
     
-
+}
 
 @media (max-width: 480px) {
     .main-wrap .visualImg-4 {
