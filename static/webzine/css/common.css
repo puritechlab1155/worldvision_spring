@@ -94,7 +94,15 @@ img {
     margin: 0 auto;
     height: 100%;
   }
-
+  .t-8 {
+    top: 8% !important;
+  }
+  .t-9 {
+    top: 9% !important;
+  }
+  .t-33 {
+    top: 33% !important;
+  }
   .f-w-3 {
     font-weight: 300;
   }
