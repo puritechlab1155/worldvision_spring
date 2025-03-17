@@ -1203,7 +1203,7 @@
         gap: 18vw;
     }
     .web02 .content-img7 .posit {
-        line-height: 6vw;
+        line-height: 3.5vw !important;
     }
     /* 03 */
     .web03 .meals {
