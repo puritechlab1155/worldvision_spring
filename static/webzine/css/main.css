@@ -395,6 +395,12 @@
 }
 
 /* 메인 비주얼 들어가는 서브 페이지 */
+.p-t-100 {
+    padding-top: clamp(50px, 6vw, 100px);
+}
+.m-t-250 {
+    margin-top: clamp(100px, 15vw, 250px);
+}
 .sub-wrap .main-visual {
     width: 100%;
     position: relative;
@@ -481,7 +487,77 @@
 }
 /* 여기까지01~05 공통 */
 
-/* 01*/
+/* 01_intBusiness1 */
+.web01 .t-82 {
+    top: 82%;
+}
+.web01 .content-img4 .posit-text {
+    top:28% !important;
+}
+.web01 .lyn {
+    width: 37%;
+    top: 17%;
+    right: 4%;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+    line-height: 180%;
+    font-weight: 500;
+    /* font-size: clamp(12px, 2vw, 18px); */
+}
+.tc {
+    text-align: center;
+}
+.web01 .jelyn {
+    width: 45%;
+    top: 68%;
+    left: 7%;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+    line-height: 180%;
+    font-weight: 500;
+    /* font-size: clamp(12px, 2vw, 18px); */
+}
+.web01 .content-img7 .posit-text {
+    top: 60% !important;
+}
+.web01 .content-img7 .posit {
+    /* line-height: 2.5vw !important; */
+    line-height: 180% !important;
+}
+.web01 .azeb {
+    width: 41% !important;
+    top: 34% !important;
+    left: 55% !important;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+    font-weight: 500;
+    line-height: 180%;
+}
+.web01 .amina {
+    width: 40% !important;
+    top: 37%;
+    left: 75% !important;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+    /* font-size: clamp(12px, 2vw, 18px); */
+}
+.gap-2 {
+    width: 81% !important;
+    gap: 2vw !important;
+    top: 50% !important;
+}
+.web01 .rowie {
+    width: 41% !important;
+    top: 18%;
+    left: 74% !important;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+}
+.web01 .arlyn {
+    width: 41% !important;
+    top: 58%;
+    left: 74% !important;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+    font-weight: 500;
+}
+
+
+
 
 /* 02_intBusiness2 */
 .web02 .sub-wrap .visualImg-2 {
@@ -500,9 +576,9 @@
     top: 30%;
     left: 76% !important;
 }
-.web02 .bold {
+.web02 .bold, .web03 .bold {
     display: block;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 700;
 }
 .web02 .content-img5 .posit-text {
@@ -516,6 +592,8 @@
 }
 .web02 .content-img6 .posit-text {
     width: 100% !important;
+    top: 60%;
+    gap: 2vw;
 }
 .web02 .content-img1 .posit-Bubble2 {
     width: 35% !important;
@@ -550,8 +628,61 @@
 .web02 .content-img7 .posit {
     line-height: 2vw
 }
-
 /* 03 */
+.web03 .content-img1 .t-78 {
+    top: 78%;
+}
+.web03 .w-70 {
+    /* top: 83%; */
+    width: 70% !important;
+}
+.web03 .t-20 {
+    top: 20%;
+    width: 50% !important;
+    left: 25%;
+}
+.web03 .t-90 {
+    top: 90% !important;
+}
+.web03 .t-75 {
+    top: 75%;
+    justify-content: space-between;
+    gap: 3vw;
+}
+.web03 .flex-box-mob {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+.web03 .w-66 {
+    width: 66%;
+}
+.web03 .w-47 {
+    width: 47%;
+}
+.web03 .w-30 {
+    width: 30%;
+}
+.web03 .t-40 {
+    top: 40% !important;
+}
+.web03 .content-img2 .meals {
+    top: 22% !important;
+    font-size: clamp(9px, 1.4vw, 18px) !important;
+}
+.web03 .meals .ct {
+    text-align: center !important;
+    font-weight: 700;
+    display: block;
+}
+.web03 .content-img1 .t-78 {
+    top: 78%;
+}
+.web03 .content-img7 .t-75 .bold {
+    font-weight: 700;
+    display: block;
+}
+
 
 /* 04_domesticBusiness2 */
 .sub-wrap .visualImg-2 {
@@ -941,6 +1072,58 @@
     #container .sub-item .content-img2 .posit-text {
         top: 20vw;
     }
+    /* 01 */
+    .web01 .t-82 {
+        top: 61%;
+    }
+    .web01 .azeb {
+        top: 19% !important;
+        left: 15% !important;
+        font-size: clamp(10px, 3vw, 24px) !important;
+        width: 70% !important;
+        line-height: 180%;
+    }
+    .web01 .lyn {
+        top: 11% !important;
+        left: 15% !important;
+        font-size: clamp(10px, 3vw, 24px) !important;
+        width: 70% !important;
+        line-height: 180%;
+    }
+    .web01 .jelyn {
+        top: 58% !important;
+        left: 15% !important;
+        font-size: clamp(10px, 3vw, 24px) !important;
+        width: 70% !important;
+        line-height: 180%; 
+    }
+    .web01 .content-img7 .posit-text {
+        top: 39% !important;
+        gap: 3vw !important;
+    }
+    .web01 .amina {
+        width: 74% !important;
+        top: 15%;
+        left: 51% !important;
+    }
+    .web01 .gap-2 {
+        top: 25% !important;
+    }
+    .web01 .gap-2 .posit:last-child{
+        margin-top: 65%;
+    }
+    .web01 .rowie {
+        font-size: clamp(12px, 3vw, 24px) !important;
+        top: 8%;
+        left: 49% !important;
+        width: 70% !important;
+    }
+    .web01 .arlyn {
+        font-size: clamp(12px, 3vw, 24px) !important;
+        top: 58%;
+        left: 49% !important;
+        width: 70% !important;
+    }
 
     /* 02 */
     .web02 .posit {
@@ -1013,6 +1196,63 @@
     .web02 .content-img7 .posit {
         line-height: 6vw;
     }
+    /* 03 */
+    .web03 .meals {
+        font-size: clamp(12px, 3vw, 24px) !important;
+        top: 8%;
+        left: 49% !important;
+        width: 70% !important;
+    }
+    .web03 .posit-Bubble {
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    .web03 .t-73 {
+        top: 73% !important;
+        width: 50% !important;
+    }
+    .web03 .t-20 {
+        font-size: clamp(12px, 3vw, 24px) !important;
+        width: 75% !important;
+    }
+    .web03 .t-90 {
+        top: 72% !important;
+    }
+    .web03 .t-75 {
+        top: 55%;
+    }
+    .web03 .t-80 {
+        top: 64% !important;
+    }
+    .web03 .flex-w {
+        flex-wrap: wrap;
+    }
+    .web03 .content-img7 .t-75 {
+        top: 23%;
+    }
+    .web03 .flex-box-mob {
+        gap: 24vw;
+        width: 100% !important;
+    }
+    .web03 .content-img7 .w-30 {
+        margin-top: 47%;
+        line-height: 180%;
+    }
+    .web03 .content-img2 .meals {
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    .web03 #container .sub-item .content-img2 .posit-text{
+        font-size: clamp(11px, 2.1vw, 15px) !important;
+    }
+    .mob-t-72 {
+        top: 72% !important;
+    }
+    .web03 .content-img1 .t-78 {
+        top: 62%;
+    }
+    .web03 .content-img2 .mob-ft {
+        font-size: clamp(12px, 3vw, 24px) !important;
+    }
+    
 
     /* 04_domesticBusiness2 */
     .web04 .sub-wrap .visualText {
