@@ -397,7 +397,8 @@
     margin-top: clamp(80px, 5vw, 100px) !important;
 }
 #container .main-visual .visualImg-2 {
-    top: 40%;
+    /* top: 40%; */
+    top: 54%;
 }
 
 /* 메인 비주얼 들어가는 서브 페이지 */
@@ -676,7 +677,7 @@
     top: 40% !important;
 }
 .web03 .content-img2 .meals {
-    top: 22% !important;
+    top: 24% !important;
     font-size: clamp(9px, 1.4vw, 18px) !important;
     font-weight: 500;
     width: 54% !important;
