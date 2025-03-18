@@ -620,7 +620,7 @@
     right: -10.5%;
 }
 .web02 .orange-text5 {
-    top: 35% !important;
+    top: 47% !important;
 }
 .web02 .content-img7 .posit-text {
     width: 48.6% !important;
@@ -630,11 +630,11 @@
 .web02 .content-img7 .posit-text .posit {
     flex: 1;
 }
-/* .web02 .posit, .web01 .posit, .web03 .posit, .web04 .posit, .web05 .posit {
-    line-height: 2.2vw !important;
-} */
 .web02 .content-img7 .posit {
     line-height: 2vw
+}
+.web02 #container .orange-text3 {
+    /* top: 9% !important; */
 }
 /* 03 */
 .web03 .content-img1 .t-78 {
@@ -1090,7 +1090,7 @@
         margin-top: clamp(50px, 25vw, 166px);
     }
     #container .orange-text {
-        top: 23% !important;
+        top: 23%;
         left: 1.5vw;
     }
     .web03 #container .orange-text {
@@ -1176,6 +1176,9 @@
     .web02 .orange-text1 {
         top: 22% !important;
     }
+    .web02 .orange-text2 {
+        top: 20% !important;
+    }
     #container .t-9 {
         top: 20% !important;
         left: 1.5vw;
@@ -1215,7 +1218,6 @@
         width: 87% !important;
         top: 15%;
         left: 51% !important;
-        
     }
     .web02 .content-img1 .posit-Bubble3 {
         width: 80% !important;
@@ -1235,6 +1237,12 @@
     }
     .web02 .content-img7 .posit {
         line-height: 3.5vw !important;
+    }
+    .web02 .orange-text4 {
+        top: 20% !important;
+    }
+    .web02 .orange-text5 {
+        top: 50% !important;
     }
     /* 03 */
     .web03 .meals {
