@@ -30,9 +30,6 @@
 .campaign .my_gnb .gnb_wrap nav .gnb { display: flex; flex-direction: column; gap: 55px; margin: 45px 0 55px; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li { padding-top: 18px; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li .lnb { position: relative; }
-/* .campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(1) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item01.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
-.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(2) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item02.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
-.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(3) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item03.svg) no-repeat; position: absolute; left: 0; bottom: 100%; } */
 .campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(1) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem01.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(2) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem02.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(3) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem03.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
@@ -380,9 +377,6 @@
     font-size: 32px;
     line-height: 42px;
 }
-/* #container .content-title > span {
-    display: block;
-} */
 #container .content-section .item-container {
     margin-top: clamp(80px, 6vw, 120px);
 }
@@ -401,6 +395,9 @@
 }
 #container .item-img {
     margin-top: clamp(80px, 5vw, 100px) !important;
+}
+#container .main-visual .visualImg-2 {
+    top: 40%;
 }
 
 /* 메인 비주얼 들어가는 서브 페이지 */
@@ -1085,6 +1082,9 @@
         top: 90% !important;
         left: -11%;
     }
+    #container .main-visual .visualImg-2 {
+        top: 1.8% !important;
+    }
     .sub-section {
         margin-top: clamp(50px, 25vw, 166px);
     }
@@ -1171,6 +1171,10 @@
     }
     .web02 .orange-text1 {
         top: 22% !important;
+    }
+    #container .t-9 {
+        top: 20% !important;
+        left: 1.5vw;
     }
     .web02 .content-img3 .posit-text {
         width: 83% !important;
