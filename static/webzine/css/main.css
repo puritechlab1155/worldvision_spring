@@ -816,7 +816,7 @@
 }
 
 .web05 #container .sub-item .content-img4 .posit {
-    top: 12%;
+    top: 80%;
 }
 
 .web05 #container .sub-item .content-img6 .posit {
@@ -1355,6 +1355,15 @@
         left: 73% !important;
         gap: 3vw;
         top: 44%;
+    }
+    .web04 #container .sub-item .content-img1 .t-80 {
+        top: 70%;
+    }
+    .web04 #container .sub-item .content-img1 .t-30 {
+        top: 20%;
+    }
+    .web04 .posit-ab-04 {
+        top: 40% !important;
     }
 
     /* 05 */
