@@ -844,12 +844,13 @@
     top: 47%;
     left: 2.5%;
 }
-
 .web05 #container .orange-text3 {
     top: 12%;
     left: 2.5%;
 }
-
+.web05 .orange1-posit {
+    top: 13%;
+}
 
 /* 06_financialReporting */
 #container .financial-title .sub-title {
@@ -910,7 +911,7 @@
 
 @media (max-width: 1020px) {
     #container .posit-text {
-        font-size: clamp(12px , 1.5vw ,15px);
+        font-size: clamp(12px, 1.5vw ,15px);
     }
 }
 @media (max-width: 894px) {
@@ -1421,7 +1422,6 @@
         height: fit-content;
         gap: 12vw;
     }
-
     .web05 #container .sub-item .content-img2 .posit-text {
         width: 94%;
         height: fit-content;
@@ -1430,6 +1430,16 @@
     .web05 #container .sub-item .content-img2 .posit-text {
         top: 40%;
     }
+    .web05 .orange1-posit {
+        top: 19% !important;
+    }
+    .web05 .orange2-posit {
+        top: 50% !important;
+    }
+    .web05 #container .orange-text3 {
+        top: 17%;
+    }
+
     /* 06_financialReporting */
     .web06 #container .sub-title {
         text-align: center;
