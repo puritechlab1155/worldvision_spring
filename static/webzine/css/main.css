@@ -1335,7 +1335,7 @@
     }
 
     .web04 #container .sub-item .content-img2 .posit-text {
-        font-size: clamp(8px, 1vw, 15px);
+        font-size: clamp(14px, 1vw, 15px);
         top: 40%;
     }
     .web04 .custom-listStyle2::before {
