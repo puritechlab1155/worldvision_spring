@@ -1247,6 +1247,9 @@
     .web02 .orange-text5 {
         top: 50% !important;
     }
+    .web02 .v-c {
+        top: 20% !important;
+    }
     /* 03 */
     .web03 .meals {
         font-size: clamp(12px, 3vw, 24px) !important;
