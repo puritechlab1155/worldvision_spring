@@ -408,7 +408,7 @@
     margin-top: clamp(100px, 15vw, 250px);
 }
 .top-9
-/* { top: 9.5% !important } */
+{ top: 9.5% !important }
 
 .sub-wrap .main-visual {
     width: 100%;
@@ -1083,7 +1083,7 @@
         left: -11%;
     }
     #container .main-visual .visualImg-2 {
-        top: 1.8% !important;
+        /* top: 1.8% !important; */
     }
     .sub-section {
         margin-top: clamp(50px, 25vw, 166px);
