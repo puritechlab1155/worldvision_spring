@@ -396,8 +396,10 @@
 #container .item-img {
     margin-top: clamp(80px, 5vw, 100px) !important;
 }
+#container .main-visual .main-posit {
+    top: 65% !important;
+}
 #container .main-visual .visualImg-2 {
-    /* top: 40%; */
     top: 54%;
 }
 
@@ -920,6 +922,9 @@
 }
 @media (max-width: 767px) {
     /* 메인 페이지 */
+    #container .main-visual .main-posit {
+        top: 0% !important;
+    }
     .main-wrap .visualImg-container{
         height: 90vh;
     }
