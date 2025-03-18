@@ -596,7 +596,7 @@
     font-size: clamp(9px, 1.4vw, 18px) !important;
 }
 .web02 .orange-text3 {
-    top: 7% !important;
+    top: 7%;
 }
 .web02 .content-img6 .posit-text {
     width: 100% !important;
@@ -634,7 +634,7 @@
     line-height: 2vw
 }
 .web02 #container .orange-text3 {
-    /* top: 9% !important; */
+    top: 9%;
 }
 /* 03 */
 .web03 .content-img1 .t-78 {
@@ -1163,6 +1163,9 @@
     .web01 #container .orange-text1 {
         top:20% !important
     }
+    .web01 .orange-text4 {
+        top: 25% !important;
+    }
 
     /* 02 */
     .web02 .posit {
@@ -1239,7 +1242,7 @@
         line-height: 3.5vw !important;
     }
     .web02 .orange-text4 {
-        top: 20% !important;
+        top: 20%;
     }
     .web02 .orange-text5 {
         top: 50% !important;
@@ -1312,9 +1315,11 @@
     
 
     /* 04_domesticBusiness2 */
-
+    .web04 #container .orangeBox .orange-text-4-1  {
+        top: 11.5% !important;
+    }
     .web04 #container .orangeBox .m-position {
-        top:9.5%
+        top: 16.5%;
     }
     .web04 .orange-bottom {
         border-bottom: none;
@@ -1372,6 +1377,9 @@
     }
     .web04 .posit-ab-04 {
         top: 40% !important;
+    }
+    .web04 .orange-text1-4 {
+        top: 19% !important;
     }
 
     /* 05 */
