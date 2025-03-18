@@ -1092,6 +1092,9 @@
         top: 23% !important;
         left: 1.5vw;
     }
+    .web03 #container .orange-text {
+        top: 19% !important;
+    }
     #container .table-text {
         font-size: clamp(12px, 5vw, 16px);
     }
@@ -1294,6 +1297,7 @@
     .web03 .content-img3 .w-70 {
         width: 70% !important;
         left: 68% !important;
+        top: 50% !important;
     }
 
     
