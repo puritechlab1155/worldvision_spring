@@ -30,9 +30,13 @@
 .campaign .my_gnb .gnb_wrap nav .gnb { display: flex; flex-direction: column; gap: 55px; margin: 45px 0 55px; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li { padding-top: 18px; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li .lnb { position: relative; }
-.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(1) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item01.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
+/* .campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(1) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item01.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(2) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item02.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
-.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(3) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item03.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
+.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(3) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menu_item03.svg) no-repeat; position: absolute; left: 0; bottom: 100%; } */
+.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(1) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem01.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
+.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(2) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem02.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
+.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(3) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem03.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
+.campaign .my_gnb .gnb_wrap nav .gnb > li:nth-child(4) .lnb::before { content: ''; width: 18px; height: 18px; display: block; background: url(../images/common/menuItem04.svg) no-repeat; position: absolute; left: 0; bottom: 100%; }
 .campaign .my_gnb .gnb_wrap nav .gnb > li .lnb > li a { font-weight: 500; font-size: 18px; line-height: 39px; }
 .campaign .my_gnb .gnb_wrap .btns a { display: block; font-weight: 500; font-size: 18px; line-height: 39px; }
 
@@ -407,7 +411,7 @@
     margin-top: clamp(100px, 15vw, 250px);
 }
 .top-9
-{ top: 9.5% !important }
+/* { top: 9.5% !important } */
 
 .sub-wrap .main-visual {
     width: 100%;
@@ -544,7 +548,7 @@
     /* font-size: clamp(12px, 2vw, 18px); */
 }
 .gap-2 {
-    width: 81% !important;
+    width: 82% !important;
     gap: 2vw !important;
     top: 50% !important;
 }
@@ -1085,8 +1089,8 @@
         margin-top: clamp(50px, 25vw, 166px);
     }
     #container .orange-text {
-        top: 17% !important;
-        left: 2vw;
+        top: 23% !important;
+        left: 1.5vw;
     }
     #container .table-text {
         font-size: clamp(12px, 5vw, 16px);
@@ -1152,6 +1156,9 @@
         left: 49% !important;
         width: 70% !important;
     }
+    .web01 #container .orange-text1 {
+        top:20% !important
+    }
 
     /* 02 */
     .web02 .posit {
@@ -1172,11 +1179,8 @@
         gap: 38vw 0;
         justify-content: space-between;
     }
-    .web02 .content-img3 .posit-text .posit {
-        flex: 0 0 40%;
-    }
-    .web02 .content-img3 .posit-text .posit3 {
-        flex: 0 0 40%;
+    .web02 .content-img3 .posit-text .posit,.posit3 {
+        flex: 0 0 43%;
     }
     .web02 .content-img4 .posit-text {
         width: 87% !important;
