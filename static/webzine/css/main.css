@@ -1303,7 +1303,7 @@
         top: 23%;
     }
     .web03 .flex-box-mob {
-        gap: 24vw;
+        gap: 10vw;
         width: 100% !important;
     }
     .web03 .content-img7 .w-30 {
@@ -1522,7 +1522,7 @@
     .web04 #container .sub-item .content-img2 .posit-text {
         width: 69%;
         font-size: clamp(8px, 1vw, 15px);
-        top: 31%;
+        top: 34%;
     }
     .web04 .custom-listStyle2::before {
         width: 10px;
