@@ -23,19 +23,19 @@
         // 버튼 클릭 이벤트 처리 함수
         function setupNavigation() {
             const homeButton = document.getElementById('homePage');
-            const prevButton = document.getElementById('prevPage');
+            // const prevButton = document.getElementById('prevPage');
             const nextButton = document.getElementById('nextPage');
             
             const currentIndex = getCurrentPageIndex();
             
-            if (currentIndex > 0) {
-                prevButton.addEventListener('click', () => {
-                    window.location.href = pages[currentIndex - 1];
-                });
-                prevButton.disabled = false; // 이전 페이지가 존재하면 활성화
-            } else {
-                prevButton.disabled = true; // 첫 페이지에서는 비활성화
-            }
+            //if (currentIndex > 0) {
+                //prevButton.addEventListener('click', () => {
+                    //window.location.href = pages[currentIndex - 1];
+               // });
+                //prevButton.disabled = false; // 이전 페이지가 존재하면 활성화
+            //} else {
+                //prevButton.disabled = true; // 첫 페이지에서는 비활성화
+            //}
             
             if (currentIndex < pages.length - 1) {
                 nextButton.addEventListener('click', () => {
