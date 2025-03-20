@@ -71,6 +71,19 @@
     .campaign .my_gnb02 ul li .name { font-weight: bold; }
 }
 
+#section01, #section02, #section03, #section04, #section05{
+    scroll-margin-top: 500px;
+}
+#section011{
+    scroll-margin-top:100px;
+}
+#section031{
+    scroll-margin-top: 700px;
+}
+#section051, #section021{
+    scroll-margin-top: 200px;
+}
+
 /* main */
 .main #container .lottie-player {
     width: 100%;
@@ -1225,7 +1238,7 @@
     }
     .web02 .content-img1 .posit-Bubble2 {
         width: 87% !important;
-        top: 15%;
+        top: 20%;
         left: 51% !important;
     }
     .web02 .content-img1 .posit-Bubble3 {
