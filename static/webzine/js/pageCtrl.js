@@ -1,7 +1,4 @@
 
-
-
-
         // 페이지 로드 시 네비게이션 설정
         document.addEventListener('DOMContentLoaded', setupNavigation);
 
