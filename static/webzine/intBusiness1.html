@@ -58,14 +58,14 @@
     <!-- css 입력 -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="/static/webzine/254/css/main.css" type="text/css">
 
 
     <!-- js 입력 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
-    <script defer type="text/javascript" src="js/protectImgText.js"></script>
-    <script defer type="text/javascript" src="js/pageCtrl.js"></script>
-    <script defer type="text/javascript" src="js/scrollMagic.js"></script>
+    <script defer type="text/javascript" src="/static/webzine/254/js/protectImgText.js"></script>
+    <script defer type="text/javascript" src="/static/webzine/254/js/pageCtrl.js"></script>
+    <script defer type="text/javascript" src="/static/webzine/254/js/scrollMagic.js"></script>
 
 </head>
 
@@ -80,16 +80,16 @@
             <!-- 상단 메뉴 -->
             <div class="header_wrap">
                 <div class="logo">
-                    <h1><a href="index.html"><img src="images/common/logo.png" alt="한국월드비전 웹진"><span class="hide">한국월드비전
+                    <h1><a href="index.html"><img src="/static/webzine/254/images/common/logo.png" alt="한국월드비전 웹진"><span
+                                class="hide">한국월드비전
                                 웹진</span></a></h1>
                 </div>
-                <div class="vol_info pc_display">2025 SPRING  VOL. 254</div>
-                <div class="vol_info mobile_display">2025 SPRING  VOL. 254</div>
+                <div id="content-container" data-include-path="/static/webzine/254/inc/util-vol.html"></div>
                 <div class="menu">
                     <button type="button">MENU</button>
                 </div>
                 <!-- <div class="angles mobile_display">
-                    <img src="images/common/angle-down.svg" alt="아래로 펼치기" class="down">
+                    <img src="/static/webzine/254/images/common/angle-down.svg" alt="아래로 펼치기" class="down">
                 </div> -->
             </div> <!-- //상단 메뉴 -->
         </header>
@@ -98,36 +98,10 @@
         <div class="my_gnb" id="my_gnb">
             <div class="gnb_wrap">
                 <div class="mn_top">
-                    <div class="vol_info"><span>2025 SPRING</span> VOL. 254</div>
-                    <div class="close_btn"><img src="images/common/menuClose.svg" alt="메뉴 닫기"></div>
+                    <div id="content-container" data-include-path="/static/webzine/254/inc/util-vol-mobile.html"></div>
+                    <div class="close_btn"><img src="/static/webzine/254/images/common/menuClose.svg" alt="메뉴 닫기"></div>
                 </div>
-                <nav>
-                    <ul class="gnb">
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="intBusiness1.html">국제사업 I </a></li>
-                                <li><a href="intBusiness2.html">국제사업 II</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="domesticBusiness1.html">국내사업 I</a></li>
-                                <li><a href="domesticBusiness2.html">국내사업 II</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="advocacyWork.html">옹호사업</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="financialReporting.html">재무보고</a></li>
-                                <li><a href="business.html">2024 한국월드비전 사업장 현황</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
+                <div id="content-container" data-include-path="/static/webzine/254/inc/util-nav.html"></div>
                 <div class="btns">
                     <a href="https://www.worldvision.or.kr/informationCenter/letter">지난호 보기</a>
                 </div>
@@ -149,24 +123,7 @@
         <div class="my_gnb02 mobile_display" id="my_gnb02">
             <div class="my_info02">
                 <a href="javascript:void(0);" class="btn_myinfo02"><span class="hide">최상단 메뉴</span></a>
-                <div class="my_lyr02">
-                    <!--D:로그인 전 노출 메뉴-->
-                    <ul>
-                        <li><a href="/loginProcess/initLogin">로그인</a></li>
-                        <li><a href="/membership/initMembership?openYn=Y">회원가입</a></li>
-                        <li><a href="/a/light_util" class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                    </ul>
-                    <!--D:로그인 후 노출 메뉴-->
-                    <ul>
-                        <li><span class="name">월드비전</span>님</li>
-                        <li class="btn_area"><a href="/a/light_util"
-                                class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                        <li class="divide"><a
-                                href="javascript:loading_open_hreflink('https://my.worldvision.or.kr', '1');">마이월드비전</a>
-                        </li>
-                        <li><a href="/loginProcess/logout">로그아웃</a></li>
-                    </ul>
-                </div>
+                <div id="content-container" data-include-path="/static/webzine/254/inc/util-login.html"></div>
             </div>
         </div>
         <script>
@@ -183,16 +140,17 @@
                 <div class="visual-wrap">
                     <div class="visualImg-1">
                         <picture>
-                            <source srcset="images/int2/mainV1mob.png" media="(max-width: 767px)">
-                            <img class="visualImg-item" src="images/int2/mainV1.png" alt="국제사업 메인비주얼 이미지1">
+                            <source srcset="/static/webzine/254/images/int2/mainV1mob.png" media="(max-width: 767px)">
+                            <img class="visualImg-item" src="/static/webzine/254/images/int2/mainV1.png"
+                                alt="국제사업 메인비주얼 이미지1">
                         </picture>
                     </div>
                     <h2 class="visualText f-w-7">국제사업</h2>
                 </div>
                 <div class="visualImg-2">
                     <picture>
-                        <!-- <source srcset="images/int2/mainV2.png" media="(max-width: 767px)"> -->
-                        <img src="images/int2/mainV2.png" alt="국제사업 메인비주얼 이미지2">
+                        <!-- <source srcset="/static/webzine/254/images/int2/mainV2.png" media="(max-width: 767px)"> -->
+                        <img src="/static/webzine/254/images/int2/mainV2.png" alt="국제사업 메인비주얼 이미지2">
                     </picture>
                 </div>
             </div>
@@ -207,9 +165,10 @@
                                         지역역량강화</span>
                                     <div class="content-text">
                                         <picture>
-                                            <source srcset="images/international1/orangText1Mob.png"
+                                            <source srcset="/static/webzine/254/images/international1/orangText1Mob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/international1/orangText1.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/international1/orangText1.png"
                                                 alt="312,600명">
                                         </picture>
                                     </div>
@@ -217,9 +176,10 @@
                             </div>
                             <div class="content-img content-img1 m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/ethiopiaStoryMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/ethiopiaStoryMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/ethiopiaStory.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/ethiopiaStory.png"
                                         alt="함께 만드는 변화, 에티오피아 훌라 지역 이야기">
                                 </picture>
                                 <span class="posit-ab posit-text posit t-82">
@@ -234,9 +194,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img3 content-img6">
                                 <picture>
-                                    <source srcset="images/international1/hulaChangeMob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/hulaChange.png"
-                                        alt="훌라지역 변화">
+                                    <source srcset="/static/webzine/254/images/international1/hulaChangeMob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/hulaChange.png" alt="훌라지역 변화">
                                 </picture>
                                 <div class="posit-ab posit-text flex-box">
                                     <span class="posit">
@@ -265,9 +226,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img4">
                                 <picture>
-                                    <source srcset="images/international1/childrenVoiceMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/childrenVoiceMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/childrenVoice.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/childrenVoice.png"
                                         alt="함께 성장하는 지역 여성들의 목소리">
                                 </picture>
                                 <span class="posit-ab posit-10 azeb">
@@ -288,8 +250,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img1 m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/togetherMob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/together.png"
+                                    <source srcset="/static/webzine/254/images/international1/togetherMob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/together.png"
                                         alt="지역사회의 성장을 돕고있습니다. 아이들을 위해 함꼐해주세요">
                                 </picture>
                             </div>
@@ -301,9 +265,10 @@
                             <span class="orange-text orange-text2 f-w-6">교육</span>
                             <div class="content-text">
                                 <picture>
-                                    <source srcset="images/international1/orangText2Mob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/orangText2.png"
-                                        alt="773,689명">
+                                    <source srcset="/static/webzine/254/images/international1/orangText2Mob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/orangText2.png" alt="773,689명">
                                 </picture>
                             </div>
                         </div>
@@ -313,9 +278,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img1">
                                 <picture>
-                                    <source srcset="images/international1/hulaProjectMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/hulaProjectMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/hulaProject.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/hulaProject.png"
                                         alt="필리핀 아동 교육 지원 프로젝트">
                                 </picture>
                                 <span class="posit-ab posit-text posit t-80">
@@ -331,9 +297,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img3">
                                 <picture>
-                                    <source srcset="images/international1/educationProjectMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/educationProjectMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/educationProject.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/educationProject.png"
                                         alt="배움의 문을 여는 교육사업">
                                 </picture>
                                 <div class="posit-ab posit-text flex-box">
@@ -359,9 +326,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img5">
                                 <picture>
-                                    <source srcset="images/international1/miracleStoryMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/miracleStoryMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/miracleStory.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/miracleStory.png"
                                         alt="배움의 기적을 경험한 아이와 교사 이야기">
                                 </picture>
                                 <span class="posit-ab lyn">
@@ -381,16 +349,19 @@
                             </div>
                             <div class="picture m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/together2Mob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/together2.png"
+                                    <source srcset="/static/webzine/254/images/international1/together2Mob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/together2.png"
                                         alt="월드비전은 더 나은 미래를 만들도록 함께께하고 있습니다.">
                                 </picture>
                             </div>
                             <div class="picture m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/participationText1Mob.png"
+                                    <source srcset="/static/webzine/254/images/international1/participationText1Mob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/participationText1.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/participationText1.png"
                                         alt="참여 학교 793 아동 수 817 청소년 수 40,358">
                                 </picture>
                             </div>
@@ -402,9 +373,10 @@
                             <span class="orange-text f-w-6 top-10">식수위생</span>
                             <div class="content-text">
                                 <picture>
-                                    <source srcset="images/international1/orangText3Mob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/orangText3.png"
-                                        alt="283,487명">
+                                    <source srcset="/static/webzine/254/images/international1/orangText3Mob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/orangText3.png" alt="283,487명">
                                 </picture>
                             </div>
                         </div>
@@ -414,8 +386,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img1">
                                 <picture>
-                                    <source srcset="images/international1/waterStoryMob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/waterStory.png"
+                                    <source srcset="/static/webzine/254/images/international1/waterStoryMob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/waterStory.png"
                                         alt="깨끗한 물로 바뀐 삷, 은바다시 이야기">
                                 </picture>
                                 <span class="posit-ab posit-text posit t-80">
@@ -431,9 +405,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img7">
                                 <picture>
-                                    <source srcset="images/international1/waterProjectMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/waterProjectMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/waterProject.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/waterProject.png"
                                         alt="건강한 미래를 꿈꿀 수 있는 식수사업">
                                 </picture>
                                 <div class="posit-ab posit-text flex-box">
@@ -455,8 +430,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img1">
                                 <picture>
-                                    <source srcset="images/international1/waterVoiceMob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/waterVoice.png"
+                                    <source srcset="/static/webzine/254/images/international1/waterVoiceMob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/waterVoice.png"
                                         alt="깨끗한 물이 만든 희망의 목소리">
                                 </picture>
                                 <span class="posit-ab posit-text posit-Bubble amina">
@@ -469,16 +446,19 @@
                             </div>
                             <div class="picture m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/waterHopeMob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/waterHope.png"
+                                    <source srcset="/static/webzine/254/images/international1/waterHopeMob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/waterHope.png"
                                         alt="깨끗한 물은 단순한 변화가 아니라, 아이들의 희망이 됩니다.">
                                 </picture>
                             </div>
                             <div class="picture m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/participationText2Mob.png"
+                                    <source srcset="/static/webzine/254/images/international1/participationText2Mob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/participationText2.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/participationText2.png"
                                         alt="196,731 & 951 & 167,951 & 20,245">
                                 </picture>
                             </div>
@@ -490,9 +470,10 @@
                             <span class="orange-text orange-text4 f-w-6 top-10">보건영양</span>
                             <div class="content-text">
                                 <picture>
-                                    <source srcset="images/international1/orangText4Mob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/orangText4.png"
-                                        alt="1,647,613명">
+                                    <source srcset="/static/webzine/254/images/international1/orangText4Mob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/orangText4.png" alt="1,647,613명">
                                 </picture>
                             </div>
                         </div>
@@ -501,9 +482,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img1">
                                 <picture>
-                                    <source srcset="images/international1/pilipinasStoryMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/pilipinasStoryMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/pilipinasStory.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/pilipinasStory.png"
                                         alt="건강한 미래를 위한 모자보건 증진사업, 필리핀 사마르 지역 이야기">
                                 </picture>
                                 <span class="posit-ab posit-text posit t-80">
@@ -519,9 +501,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img3">
                                 <picture>
-                                    <source srcset="images/international1/pilipinasProjectMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/pilipinasProjectMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/pilipinasProject.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/pilipinasProject.png"
                                         alt="아이들의 든든한 시작을 함께하는 보건영양사업">
                                 </picture>
                                 <div class="posit-ab posit-text flex-box gap-2">
@@ -548,9 +531,10 @@
                         <div class="item-wrap">
                             <div class="content-img content-img1">
                                 <picture>
-                                    <source srcset="images/international1/pilipinasVoiceMob.png"
+                                    <source srcset="/static/webzine/254/images/international1/pilipinasVoiceMob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/pilipinasVoice.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/pilipinasVoice.png"
                                         alt="현장에서 전하는 생생한 목소리">
                                 </picture>
                                 <span class="posit-ab posit-text rowie">
@@ -566,16 +550,19 @@
                             </div>
                             <div class="picture m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/tomorrowMob.png" media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/tomorrow.png"
+                                    <source srcset="/static/webzine/254/images/international1/tomorrowMob.png"
+                                        media="(max-width: 767px)">
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/tomorrow.png"
                                         alt="건강한 엄마와아기, 더 나은 내일을 위한 노력은 계속됩니다.">
                                 </picture>
                             </div>
                             <div class="picture m-t-100">
                                 <picture>
-                                    <source srcset="images/international1/participationText3Mob.png"
+                                    <source srcset="/static/webzine/254/images/international1/participationText3Mob.png"
                                         media="(max-width: 767px)">
-                                    <img class="visualImg-item" src="images/international1/participationText3.png"
+                                    <img class="visualImg-item"
+                                        src="/static/webzine/254/images/international1/participationText3.png"
                                         alt="343,961 & 156,602명 & 119,579">
                                 </picture>
                             </div>
@@ -590,10 +577,13 @@
 
         <!-- page ctrl -->
         <div class="pagination">
-            <button id="homePage"><img src="images/common/homeButton.png" alt="월드비전 웹진 홈 바로가기"></button>
-            <button id="prevPage"><img src="images/common/prevButton.png" alt="월드비전 웹진 이전 기사로 이동하기"></button>
-            <button id="nextPage"><img src="images/common/nextButton.png" alt="월드비전 웹진 다음 기사로 이동하기"></button>
-            <!-- <button class="scroll-button" onclick="scrollToTop()" id="upPage"><img src="images/common/top-button.png" alt="월드비전 웹진 상단으로 이동하기"></button> -->
+            <button id="homePage"><img src="/static/webzine/254/images/common/homeButton.png"
+                    alt="월드비전 웹진 홈 바로가기"></button>
+            <button id="prevPage"><img src="/static/webzine/254/images/common/prevButton.png"
+                    alt="월드비전 웹진 이전 기사로 이동하기"></button>
+            <button id="nextPage"><img src="/static/webzine/254/images/common/nextButton.png"
+                    alt="월드비전 웹진 다음 기사로 이동하기"></button>
+            <!-- <button class="scroll-button" onclick="scrollToTop()" id="upPage"><img src="/static/webzine/254/images/common/top-button.png" alt="월드비전 웹진 상단으로 이동하기"></button> -->
         </div> <!-- //page ctrl -->
 
         <!-- footer -->

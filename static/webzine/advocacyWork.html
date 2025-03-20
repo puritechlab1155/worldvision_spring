@@ -57,14 +57,13 @@
 
     <!-- css 입력 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/juhyo.css" type="text/css">
+    <link rel="stylesheet" href="/static/webzine/254/css/main.css?v=1" type="text/css">
 
     <!-- js 입력 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
-    <script defer type="text/javascript" src="js/protectImgText.js"></script>
-    <script defer type="text/javascript" src="js/pageCtrl.js"></script>
-    <script defer type="text/javascript" src="js/scrollMagic.js"></script>
+    <script defer type="text/javascript" src="/static/webzine/254/js/protectImgText.js"></script>
+    <script defer type="text/javascript" src="/static/webzine/254/js/pageCtrl.js"></script>
+    <script defer type="text/javascript" src="/static/webzine/254/js/scrollMagic.js"></script>
 
 
 </head>
@@ -80,17 +79,14 @@
             <!-- 상단 메뉴 -->
             <div class="header_wrap">
                 <div class="logo">
-                    <h1><a href="index.html"><img src="images/common/logo.png" alt="한국월드비전 웹진"><span class="hide">한국월드비전
+                    <h1><a href="index.html"><img src="/static/webzine/254/images/common/logo.png" alt="한국월드비전 웹진"><span
+                                class="hide">한국월드비전
                                 웹진</span></a></h1>
                 </div>
-                <div class="vol_info pc_display">2025 SPRING  VOL. 254</div>
-                <div class="vol_info mobile_display">2025 SPRING  VOL. 254</div>
+                <div id="content-container" data-include-path="/static/webzine/254/inc/util-vol.html"></div>
                 <div class="menu">
                     <button type="button">MENU</button>
                 </div>
-                <!-- <div class="angles mobile_display">
-                    <img src="images/common/angle-down.svg" alt="아래로 펼치기" class="down">
-                </div> -->
             </div> <!-- //상단 메뉴 -->
         </header>
 
@@ -98,36 +94,11 @@
         <div class="my_gnb" id="my_gnb">
             <div class="gnb_wrap">
                 <div class="mn_top">
-                    <div class="vol_info"><span>2025 SPRING</span> VOL. 254</div>
-                    <div class="close_btn"><img src="images/common/menuClose.svg" alt="메뉴 닫기"></div>
+                    <div id="content-container" data-include-path="/static/webzine/254/inc/util-vol-mobile.html"></div>
+                    <div class="close_btn"><img src="/static/webzine/254/images/common/menuClose.svg" alt="메뉴 닫기">
+                    </div>
                 </div>
-                <nav>
-                    <ul class="gnb">
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="intBusiness1.html">국제사업 I </a></li>
-                                <li><a href="intBusiness2.html">국제사업 II</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="domesticBusiness1.html">국내사업 I</a></li>
-                                <li><a href="domesticBusiness2.html">국내사업 II</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="advocacyWork.html">옹호사업</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="lnb">
-                                <li><a href="financialReporting.html">재무보고</a></li>
-                                <li><a href="business.html">2024 한국월드비전 사업장 현황</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
+                <div id="content-container" data-include-path="/static/webzine/254/inc/util-nav.html"></div>
                 <div class="btns">
                     <a href="https://www.worldvision.or.kr/informationCenter/letter">지난호 보기</a>
                 </div>
@@ -145,28 +116,17 @@
                     $('.my_gnb .gnb_wrap').slideUp();
                 });
             </script>
+            <script>
+                $('.my_gnb02').hide();
+                $('.angles').click(function () {
+                    $('.my_gnb02').toggle();
+                });
+            </script>
         </div>
         <div class="my_gnb02 mobile_display" id="my_gnb02">
             <div class="my_info02">
                 <a href="javascript:void(0);" class="btn_myinfo02"><span class="hide">최상단 메뉴</span></a>
-                <div class="my_lyr02">
-                    <!--D:로그인 전 노출 메뉴-->
-                    <ul>
-                        <li><a href="/loginProcess/initLogin">로그인</a></li>
-                        <li><a href="/membership/initMembership?openYn=Y">회원가입</a></li>
-                        <li><a href="/a/light_util" class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                    </ul>
-                    <!--D:로그인 후 노출 메뉴-->
-                    <ul>
-                        <li><span class="name">월드비전</span>님</li>
-                        <li class="btn_area"><a href="/a/light_util"
-                                class="btn_type btn_size btn_bg_orange"><span>후원하기</span></a></li>
-                        <li class="divide"><a
-                                href="javascript:loading_open_hreflink('https://my.worldvision.or.kr', '1');">마이월드비전</a>
-                        </li>
-                        <li><a href="/loginProcess/logout">로그아웃</a></li>
-                    </ul>
-                </div>
+                <div id="content-container" data-include-path="/static/webzine/254/inc/util-login.html"></div>
             </div>
         </div>
         <script>
@@ -182,16 +142,18 @@
                 <div class="visual-wrap">
                     <div class="visualImg-1">
                         <picture>
-                            <source srcset="images/advocacy/mainV1mob.svg" media="(max-width: 767px)">
-                            <img class="visualImg-item" src="images/advocacy/mainV1.png" alt="옹호사업 메인비주얼 이미지1">
+                            <source srcset="/static/webzine/254/images/advocacy/mainV1mob.svg"
+                                media="(max-width: 767px)">
+                            <img class="visualImg-item" src="/static/webzine/254/images/advocacy/mainV1.png"
+                                alt="옹호사업 메인비주얼 이미지1">
                         </picture>
                     </div>
                     <h2 class="visualText f-w-7">옹호사업</h2>
                 </div>
                 <div class="visualImg-2">
                     <picture>
-                        <source srcset="images/advocacy/mainV2mob.png" media="(max-width: 767px)">
-                        <img src="images/advocacy/mainV2.png" alt="옹호사업 메인비주얼 이미지2">
+                        <source srcset="/static/webzine/254/images/advocacy/mainV2mob.png" media="(max-width: 767px)">
+                        <img src="/static/webzine/254/images/advocacy/mainV2.png" alt="옹호사업 메인비주얼 이미지2">
                     </picture>
                 </div>
             </div>
@@ -205,9 +167,10 @@
                                     <span class="orange-text orange1-posit f-w-6">아동권리사업</span>
                                     <div class="content-text">
                                         <picture>
-                                            <source srcset="images/advocacy/orangText1Mob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/orangText1Mob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/orangText1.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/orangText1.png"
                                                 alt="아동권리사업 총 수혜자">
                                         </picture>
                                     </div>
@@ -222,8 +185,10 @@
                                             기후정의 옹호 프로젝트를 통해 아동들은 기후위기 대응 시 아동 권리 보장의 중요성을 알리고 변화를 이끌어냈습니다.
                                         </span>
                                         <picture>
-                                            <source srcset="images/advocacy/sec02bgMob.png" media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec02bg.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec02bgMob.png"
+                                                media="(max-width: 767px)">
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec02bg.png"
                                                 alt="월드비전 아동권리사업 사람들">
                                         </picture>
                                     </div>
@@ -241,9 +206,10 @@
                                         </div>
                                         <div class="picture">
                                             <picture>
-                                                <source srcset="images/advocacy/sec03bgMob.png"
+                                                <source srcset="/static/webzine/254/images/advocacy/sec03bgMob.png"
                                                     media="(max-width: 767px)">
-                                                <img class="visualImg-item" src="images/advocacy/sec03bg.png"
+                                                <img class="visualImg-item"
+                                                    src="/static/webzine/254/images/advocacy/sec03bg.png"
                                                     alt="월드비전 아동권리사업 사람들">
                                             </picture>
                                         </div>
@@ -260,26 +226,29 @@
                                         </span>
                                         <div class="picture">
                                             <picture>
-                                                <source srcset="images/advocacy/sec04bgMob.png"
+                                                <source srcset="/static/webzine/254/images/advocacy/sec04bgMob.png"
                                                     media="(max-width: 767px)">
-                                                <img class="visualImg-item" src="images/advocacy/sec04bg.png"
+                                                <img class="visualImg-item"
+                                                    src="/static/webzine/254/images/advocacy/sec04bg.png"
                                                     alt="정부 정책에 반영된 아동의 목소리 사람들">
                                             </picture>
                                         </div>
                                     </div>
                                     <div class="picture m-t-100">
                                         <picture>
-                                            <source srcset="images/advocacy/sec04fontBgMob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec04fontBgMob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec04fontBg.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec04fontBg.png"
                                                 alt="기후위기는 곧 아동 권리의 위기">
                                         </picture>
                                     </div>
                                     <div class="picture m-t-100">
                                         <picture>
-                                            <source srcset="images/advocacy/sec04textBgMob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec04textBgMob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec04textBg.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec04textBg.png"
                                                 alt="월드비전 아동권리대표단 및 월드비전 아동총회">
                                         </picture>
                                     </div>
@@ -292,9 +261,10 @@
                                             class="mob">공공정책</span>개선활동</span>
                                     <div class="content-text">
                                         <picture>
-                                            <source srcset="images/advocacy/orangText2Mob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/orangText2Mob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/orangText2.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/orangText2.png"
                                                 alt="공공정책 개선활동">
                                         </picture>
                                     </div>
@@ -310,8 +280,10 @@
                                             제도가 마련되도록 국회 및 정부와 협력하고 있습니다.
                                         </span>
                                         <picture>
-                                            <source srcset="images/advocacy/sec06bgMob.png" media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec06bg.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec06bgMob.png"
+                                                media="(max-width: 767px)">
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec06bg.png"
                                                 alt="지구촌 문제 해결을 위한 의미있는 연대 사람들">
                                         </picture>
                                     </div>
@@ -329,9 +301,10 @@
                                         </div>
                                         <div class="picture">
                                             <picture>
-                                                <source srcset="images/advocacy/sec07bgMob.png"
+                                                <source srcset="/static/webzine/254/images/advocacy/sec07bgMob.png"
                                                     media="(max-width: 767px)">
-                                                <img class="visualImg-item" src="images/advocacy/sec07bg.png"
+                                                <img class="visualImg-item"
+                                                    src="/static/webzine/254/images/advocacy/sec07bg.png"
                                                     alt="국회 글로벌 지속가능발전인도주의 포럼 설립 참여">
                                             </picture>
                                         </div>
@@ -347,8 +320,10 @@
                                             우리나라 인도적지원의 법적 기반 강화 활동을 이어왔습니다.
                                         </span>
                                         <picture>
-                                            <source srcset="images/advocacy/sec08BgMob.png" media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec08Bg.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec08BgMob.png"
+                                                media="(max-width: 767px)">
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec08Bg.png"
                                                 alt="대한민국의 인도적지원을 위한 법적 기반 강화 활동">
                                         </picture>
                                     </div>
@@ -359,17 +334,19 @@
                                 <div class="item-wrap">
                                     <div class="content-img content-img6">
                                         <picture>
-                                            <source srcset="images/advocacy/sec08fontBgMob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec08fontBgMob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec08fontBg.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec08fontBg.png"
                                                 alt="월드비전은 대한민국이 글보벌 복합위기 대응과 해결">
                                         </picture>
 
                                         <div class="picture m-t-100">
                                             <picture>
-                                                <source srcset="images/advocacy/sec08textBgMob.png"
+                                                <source srcset="/static/webzine/254/images/advocacy/sec08textBgMob.png"
                                                     media="(max-width: 767px)">
-                                                <img class="visualImg-item" src="images/advocacy/sec08textBg.png"
+                                                <img class="visualImg-item"
+                                                    src="/static/webzine/254/images/advocacy/sec08textBg.png"
                                                     alt="글로벌 아동 기아 및 영양개선을 위한 옹호 활동 및 국내 아동 권리 증진을 위한 옹호 활동">
                                             </picture>
                                         </div>
@@ -382,9 +359,10 @@
                                     <span class="orange-text orange-text3 f-w-6">세계시민학교</span>
                                     <div class="content-text">
                                         <picture>
-                                            <source srcset="images/advocacy/orangText3Mob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/orangText3Mob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/orangText3.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/orangText3.png"
                                                 alt="세계시민학교 참여자">
                                         </picture>
                                     </div>
@@ -399,9 +377,10 @@
                                             2024년에는 전국 12,500여 명의 학생이 글로벌 식량위기 해결을 위한 ENOUGH 캠페인에 참여해 큰 변화를 이끌었습니다.
                                         </span>
                                         <picture>
-                                            <source srcset="images/advocacy/sec09bgMob.png" media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec09bg.png"
-                                                alt="세계시민학교 사람들">
+                                            <source srcset="/static/webzine/254/images/advocacy/sec09bgMob.png"
+                                                media="(max-width: 767px)">
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec09bg.png" alt="세계시민학교 사람들">
                                         </picture>
                                     </div>
                                 </div>
@@ -420,9 +399,10 @@
                                         </div>
                                         <div class="picture">
                                             <picture>
-                                                <source srcset="images/advocacy/sec10bgMob.png"
+                                                <source srcset="/static/webzine/254/images/advocacy/sec10bgMob.png"
                                                     media="(max-width: 767px)">
-                                                <img class="visualImg-item" src="images/advocacy/sec10bg.png"
+                                                <img class="visualImg-item"
+                                                    src="/static/webzine/254/images/advocacy/sec10bg.png"
                                                     alt="굶주림 없는 세상을 위한 행동, ENOUGH 캠페인!">
                                             </picture>
                                         </div>
@@ -438,29 +418,34 @@
                                             against Hunger and Poverty’에 가입하겠다는 공약을 발표하며 국제사회 문제 해결에 리더십을 발휘했습니다.
                                         </span>
                                         <picture>
-                                            <source srcset="images/advocacy/sec11bgMob.png" media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec11bg.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec11bgMob.png"
+                                                media="(max-width: 767px)">
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec11bg.png"
                                                 alt="실제 변화를 이끈 학생들의 외침">
                                         </picture>
                                     </div>
                                     <div class="picture m-t-100">
                                         <picture>
-                                            <source srcset="images/advocacy/sec12textbg.png" media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec12textbg.png" width="100%"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec12textbg.png"
+                                                media="(max-width: 767px)">
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec12textbg.png" width="100%"
                                                 alt="기후위기는 곧 아동 권리의 위기">
                                         </picture>
                                     </div>
                                     <div class="picture m-t-100">
                                         <picture>
-                                            <source srcset="images/advocacy/sec11textbgMob.png"
+                                            <source srcset="/static/webzine/254/images/advocacy/sec11textbgMob.png"
                                                 media="(max-width: 767px)">
-                                            <img class="visualImg-item" src="images/advocacy/sec11textbg.png"
+                                            <img class="visualImg-item"
+                                                src="/static/webzine/254/images/advocacy/sec11textbg.png"
                                                 alt="굶주림 없는 세상을 위한 행동, ENOUGH 캠페인!">
                                         </picture>
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
 
 
@@ -474,9 +459,12 @@
 
         <!-- page ctrl -->
         <div class="pagination">
-            <button id="homePage"><img src="images/common/homeButton.png" alt="월드비전 웹진 홈 바로가기"></button>
-            <button id="prevPage"><img src="images/common/prevButton.png" alt="월드비전 웹진 이전 기사로 이동하기"></button>
-            <button id="nextPage"><img src="images/common/nextButton.png" alt="월드비전 웹진 다음 기사로 이동하기"></button>
+            <button id="homePage"><img src="/static/webzine/254/images/common/homeButton.png"
+                    alt="월드비전 웹진 홈 바로가기"></button>
+            <button id="prevPage"><img src="/static/webzine/254/images/common/prevButton.png"
+                    alt="월드비전 웹진 이전 기사로 이동하기"></button>
+            <button id="nextPage"><img src="/static/webzine/254/images/common/nextButton.png"
+                    alt="월드비전 웹진 다음 기사로 이동하기"></button>
             <!-- <button class="scroll-button" onclick="scrollToTop()" id="upPage"><img src="images/common/top-button.png" alt="월드비전 웹진 상단으로 이동하기"></button> -->
         </div> <!-- //page ctrl -->
 
@@ -502,12 +490,13 @@
                 });
             });
         </script>
-
-        <!-- 플로팅 버튼 -->
-        <div id="floating">
-        </div>
-        <!-- //플로팅 버튼 -->
     </div>
+
+    <script type="text/javascript" src="/resources/wvFrt/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/resources/wvFrt/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="/resources/wvFrt/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/resources/wvFrt/js/ui.js"></script>
+    <script type="text/javascript" src="/resources/wvFrt/js/cmsModule.js"></script>
 </body>
 
 </html>
