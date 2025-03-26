@@ -236,3 +236,52 @@ img {
       font-size: 16px;
     }
   }
+
+/* 20241121 util 메뉴 로고 삭제 및 로그인 영역 위치 조정 */
+#header.microsite .header_wrap {
+  height: 32px
+}
+
+.microsite .header_wrap .header_logo,
+.microsite .header_wrap .header_logo img {
+  display: none
+}
+
+.microsite .header_util .my_info .my_lyr {
+  word-break: keep-all;
+}
+
+@media only all and (max-width: 767px) {
+  #header.microsite {
+      padding: 0;
+  }
+
+  #header.microsite .header_wrap {
+      height: 0;
+      padding: 0
+  }
+
+  #header.microsite .header_wrap .header_util .my_info {
+      top: 22px;
+      right: 20px
+  }
+
+  .campaign #header .header_wrap .menu {
+      margin-right: 40px
+  }
+
+  .microsite .btn_myinfo {
+      border-color: #fff;
+      border-radius: 8px;
+      background-image: url('images/common/angle-down.svg') no-repeat;
+      -webkit-background-size: 40%;
+      background-size: 40%;
+  }
+
+  .microsite .header_util .my_info .my_lyr {
+      right: -20px
+  }
+
+}
+
+/* //20241121 util 메뉴 로고 삭제 및 로그인 영역 위치 조정 */

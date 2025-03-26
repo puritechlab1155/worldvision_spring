@@ -22,7 +22,7 @@
 
 .campaign .my_gnb { width: 100%; max-width: 1200px; margin: 0 auto; position: relative; }
 .campaign .my_gnb.on::after { content: ''; position: fixed; left: 0; top: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.5); z-index: 12; }
-.campaign .my_gnb .gnb_wrap { width: 100%; max-width: 417px; background: #fff; position: absolute; right: 0; top: -79px; z-index: 14; padding: 25px 25px 30px 20px; }
+.campaign .my_gnb .gnb_wrap { width: 100%; max-width: 417px; background: #fff; position: absolute; right: 0; top: -79px; z-index: 100; padding: 25px 25px 30px 20px; }
 .campaign .my_gnb .gnb_wrap .mn_top { display: flex; justify-content: space-between; align-items: center; }
 .campaign .my_gnb .gnb_wrap .mn_top .vol_info { font-weight: 500; font-size: 18px; line-height: 28px; }
 .campaign .my_gnb .gnb_wrap .mn_top .vol_info span { font-weight: 900; }
@@ -1231,7 +1231,7 @@
         font-size: clamp(10px, 3vw, 24px) !important;
     }
     .web02 .orange-text3 {
-        top: 16% !important;
+        top: 17% !important;
     }
     .web02 .posit-Bubble {
         font-size: clamp(12px, 3vw, 24px) !important;
@@ -1329,9 +1329,10 @@
         width: 80% !important;
     }
     .web03 .content-img3 .w-70 {
-        width: 70% !important;
+        width: 80% !important;
         left: 68% !important;
         top: 50% !important;
+        background: yellow;
     }
 
     
@@ -1533,6 +1534,11 @@
 
 }
 
+@media (max-width: 380px) {
+    .web02 .content-img1 .posit-Bubble2 {
+        top: 18%;
+    }
+}
 
 
 
