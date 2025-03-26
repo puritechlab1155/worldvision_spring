@@ -800,6 +800,7 @@
     top: 22px;
     left: -16px;
 }
+
 .web04 #container .sub-item .content-img1 .posit {
 	top: 3%;
 }
@@ -1329,10 +1330,9 @@
         width: 80% !important;
     }
     .web03 .content-img3 .w-70 {
-        width: 80% !important;
-        left: 68% !important;
+        width: 89% !important;
+        left: 72% !important;
         top: 50% !important;
-        background: yellow;
     }
 
     
@@ -1353,10 +1353,20 @@
         top: 40%;
     }
     .web04 .custom-listStyle2::before {
+        top: 29%;
+        left: -15px;
+        width: 10px;
+        height: 10px;
+        /* background: yellow; */
+    }
+    .web04 .custom-listStyle2::before {
         top: 13%;
         left: -15px;
         width: 10px;
         height: 10px;
+    }
+    .web03 .custom-listStyle3::before {
+        top : 17px !important
     }
     .web04 #container .sub-item .content-img1 .posit-40 {
         width: 90%;
@@ -1391,9 +1401,9 @@
     }
     .web04 .posit-ab-04{
         position: absolute;
-        width: 72% !important;
-        left: 73% !important;
-        gap: 5vw;
+        width: 80% !important;
+        left: 69% !important;
+        gap: 8vw;
         top: 44%;
     }
     .web04 #container .sub-item .content-img1 .t-80 {
