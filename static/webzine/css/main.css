@@ -1368,7 +1368,14 @@
         width: 50% !important;
     }
     .web04 #container .sub-item .content-img2 .w-76 {
-        flex-wrap: wrap;
+        display: grid;
+        column-gap: 15%;
+        row-gap: 45%;
+        top: 36%;
+        left: 52%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "box1 box2" "box3 .";
+        width: 85%;
     }
     .web04 #container .sub-item .content-img2 .flex-1 {
         flex: 1;
@@ -1378,9 +1385,6 @@
         width: 100%;
         position: relative;
         top: 18%;
-    }
-    .web04 #container .sub-item .content-img2 .w-76 {
-        top : 36%;
     }
     .web04 .f-s-m {
         font-size: clamp(11px, 2.1vw, 15px) !important;
@@ -1530,6 +1534,13 @@
         height: 10px;
         top: 14px;
         left: -14px;
+    }
+    .web04 #container .sub-item .content-img2 .w-76 {
+        row-gap: 28%;
+        top: 36%;
+        left: 50%;
+        width: 90%;
+        font-size: 12px;
     }
 
 }
