@@ -717,6 +717,10 @@
     top: 22px;
     left: -20px;
 }
+.web03 #container .orange-text {
+    top: 14%;
+}
+
 
 
 /* 04_domesticBusiness2 */
@@ -821,6 +825,9 @@
     gap: 3vw;
     top: 44%;
 }
+.web04 .orange-text1-4 {
+    top: 14% !important;
+}
 
 
 /* 05_advocacyWork */
@@ -863,7 +870,7 @@
     left: 2.5%;
 }
 .web05 .orange1-posit {
-    top: 13%;
+    top: 14% !important;
 }
 
 /* 06_financialReporting */
@@ -1110,11 +1117,11 @@
         margin-top: clamp(50px, 25vw, 166px);
     }
     #container .orange-text {
-        top: 23%;
+        top: 26%;
         left: 1.5vw;
     }
     .web03 #container .orange-text {
-        top: 19% !important;
+        top: 19%;
     }
     #container .table-text {
         font-size: clamp(12px, 5vw, 16px);
@@ -1201,6 +1208,7 @@
     }
     .web02 .orange-text2 {
         top: 20% !important;
+        background-color: thistle;
     }
     #container .t-9 {
         top: 20% !important;
@@ -1342,7 +1350,7 @@
         top: 11.5% !important;
     }
     .web04 #container .orangeBox .m-position {
-        top: 16.5%;
+        top: 18.5%;
     }
     .web04 .orange-bottom {
         border-bottom: none;
@@ -1464,6 +1472,7 @@
     .web05 .orange2-posit {
         top: 50% !important;
     }
+    
     .web05 #container .orange-text3 {
         top: 17%;
     }
@@ -1482,7 +1491,7 @@
     }
     .web06 #container .content-section .item-table {
         gap: 0;
-      }
+    }
     .m-mt-8 {
     margin-top: clamp(80px, 1vw, 80px) !important;
     }
@@ -1493,6 +1502,7 @@
 }
 
 @media (max-width: 480px) {
+    
     .main-wrap .visualImg-4 {
         top: 19vw;
     } 
@@ -1551,6 +1561,35 @@
         left: 50%;
         width: 90%;
         font-size: 12px;
+    }
+    .web04 #container .orangeBox .orange-text-4-1{
+        top: 11% !important;
+    }
+    #container .orange-text {
+        top: 25%;
+    }
+}
+@media (max-width: 468px) {
+    #container .orange-text {
+        top: 29%;
+    }
+     .web02 .orange-text2 {
+        top: 23% !important; 
+     }
+     .web02 .orange-text3{
+        top: 15% !important;
+     }
+     .web04 #container .orangeBox .orange-text-4-1 {
+        top: 14% !important;
+    }
+    .web03 #container .orange-text {
+        top: 14%;
+    }
+    .web03 .orange-text2{
+        top: 18% !important;
+    }
+    .web04 #container .orangeBox .m-position{
+        top: 15% ;
     }
 
 }
