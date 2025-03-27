@@ -1208,7 +1208,6 @@
     }
     .web02 .orange-text2 {
         top: 20% !important;
-        background-color: thistle;
     }
     #container .t-9 {
         top: 20% !important;
@@ -1267,7 +1266,7 @@
         gap: 18vw;
     }
     .web02 .content-img7 .posit {
-        line-height: 3.5vw !important;
+        line-height: 160% !important;
     }
     .web02 .orange-text4 {
         top: 20%;
@@ -1512,12 +1511,15 @@
     .main-wrap .main-link .sub {
         line-height: 5vw;
     } /* //메인비주얼 */
+    /* 01 */
+    .web01 .amina {
+        width: 77% !important;
+    }
 
     /* 02 */
     .web02 .posit {
         line-height: 160%;
     }
-
     .main #container .content-img4 .section-title {
         top: 8%;
     }
@@ -1573,13 +1575,16 @@
     #container .orange-text {
         top: 29%;
     }
-     .web02 .orange-text2 {
+    .web01 .gap-2 .posit:last-child {
+        margin-top: 61%;
+    }
+    .web02 .orange-text2 {
         top: 23% !important; 
      }
-     .web02 .orange-text3{
+    .web02 .orange-text3{
         top: 15% !important;
      }
-     .web04 #container .orangeBox .orange-text-4-1 {
+    .web04 #container .orangeBox .orange-text-4-1 {
         top: 14% !important;
     }
     .web03 #container .orange-text {
@@ -1595,6 +1600,12 @@
 }
 
 @media (max-width: 380px) {
+    .web01 .gap-2 .posit:last-child {
+        margin-top: 45%;
+    }
+    .web01 .rowie {
+        width: 73% !important;
+    }
     .web02 .content-img1 .posit-Bubble2 {
         top: 18%;
     }
