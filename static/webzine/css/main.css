@@ -646,7 +646,7 @@
     flex: 1;
 }
 .web02 .content-img7 .posit {
-    line-height: 2vw
+    line-height: 180%;
 }
 .web02 #container .orange-text3 {
     top: 9%;
@@ -1217,7 +1217,7 @@
         width: 83% !important;
         flex-wrap: wrap;
         top: 25%;
-        gap: 38vw 0;
+        gap: 33vw 0;
         justify-content: space-between;
     }
     .web02 .content-img3 .posit-text .posit,.posit3 {
@@ -1225,7 +1225,7 @@
     }
     .web02 .content-img4 .posit-text {
         width: 87% !important;
-        top: 15%;
+        top: 16%;
         left: 51% !important;
         font-size: clamp(12px, 3vw, 24px) !important;
     }
@@ -1250,7 +1250,7 @@
         left: 51% !important;
     }
     .web02 .content-img1 .posit-Bubble3 {
-        width: 80% !important;
+        width: 82% !important;
         top: 13%;
         left: 52% !important;
     }
@@ -1266,7 +1266,7 @@
         gap: 18vw;
     }
     .web02 .content-img7 .posit {
-        line-height: 160% !important;
+        line-height: 3.5vw !important;
     }
     .web02 .orange-text4 {
         top: 20%;
@@ -1517,9 +1517,10 @@
     }
 
     /* 02 */
-    .web02 .posit {
-        line-height: 160%;
+    .web02 .posit, .web02 .content-img7 .posit {
+        line-height: 160% !important
     }
+
     .main #container .content-img4 .section-title {
         top: 8%;
     }
@@ -1543,7 +1544,7 @@
         font-size: 12px;
     }
     .sub-wrap .visualText {
-        top: 30% !important;
+        top: 29% !important;
         left: 44%;
     }
     .web04 #container .sub-item .content-img2 .posit-text {
