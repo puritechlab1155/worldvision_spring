@@ -1615,6 +1615,12 @@
 
 }
 
+@media (max-width: 430px) {
+    .web03 .content-img7 .w-30{
+        margin-top: 30% !important;
+    }
+}
+
 @media (max-width: 560px) {
     
     .web03 .content-img7 .w-30 {
@@ -1634,6 +1640,9 @@
     }
     .web02 .m-t-13 {
         margin-top: 0%;
+    }
+    .web03 .content-img7 .w-30{
+        margin-top: 20% !important;
     }
 }
 
