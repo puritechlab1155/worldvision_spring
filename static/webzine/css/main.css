@@ -651,6 +651,9 @@
 .web02 #container .orange-text3 {
     top: 9%;
 }
+.web02 .content-img3 .posit-text .posit .web {
+    display: block;
+}
 /* 03 */
 .web03 .content-img1 .t-78 {
     top: 78%;
@@ -911,7 +914,11 @@
         left: 45%;
     }
 }
-
+@media (max-width: 1108px) {
+    .web02 .content-img3 .posit-text .posit .web {
+        display: inline;
+    }
+}
 @media (max-width: 1098px) {
     .main #container .content-img .btn_area {
         gap: 2vw;
