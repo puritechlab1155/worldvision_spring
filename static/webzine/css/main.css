@@ -282,7 +282,7 @@
 .main #container .content-img2 .section-title ,
 .main #container .content-img3 .section-title ,
 .main #container .content-img4 .section-title {
-   	    font-size: 40px;
+        font-size: 40px;
 }
 .main #container .content-img3 .section-title {
     top: -6%;
@@ -809,14 +809,14 @@
 }
 
 .web04 #container .sub-item .content-img1 .posit {
-	top: 3%;
+    top: 3%;
 }
 .web04 #container .sub-item .content-img1 .t-30 {
-	top: 30%;
+    top: 30%;
     width: 72%;
 }
 .web04 #container .sub-item .content-img1 .t-80 {
-	top: 80%;
+    top: 80%;
 }
 .web04 #container .sub-item .content-img2 .posit-x-r {
     transform: translateX(14%);
@@ -1142,6 +1142,7 @@
     #container .sub-item .content-img2 .posit-text {
         top: 20vw;
     }
+    
     /* 01 */
     .web01 .t-82 {
         top: 61%;
@@ -1202,6 +1203,9 @@
     }
 
     /* 02 */
+    .web02 .m-t-13 {
+        margin-top: 13%;
+    }
     .web02 .posit {
         line-height: 3.5vw;
         font-size: clamp(10px, 2.1vw, 15px) !important;
@@ -1597,7 +1601,7 @@
         top: 14% !important;
     }
     .web03 #container .orange-text {
-        top: 14%;
+        top: 14% !important;
     }
     .web03 .orange-text2{
         top: 18% !important;
@@ -1605,9 +1609,19 @@
     .web04 #container .orangeBox .m-posit{
         top: 17% ;
     }
+    .web03 .content-img7 .w-30{
+        margin-top: 40% !important;
+    }
 
 }
 
+@media (max-width: 560px) {
+    
+    .web03 .content-img7 .w-30 {
+        line-height: 185% !important;
+    }
+
+}
 @media (max-width: 380px) {
     .web01 .gap-2 .posit:last-child {
         margin-top: 45%;
@@ -1617,6 +1631,9 @@
     }
     .web02 .content-img1 .posit-Bubble2 {
         top: 18%;
+    }
+    .web02 .m-t-13 {
+        margin-top: 0%;
     }
 }
 
