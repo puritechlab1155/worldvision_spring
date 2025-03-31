@@ -37,6 +37,7 @@
 .campaign .my_gnb .gnb_wrap nav .gnb > li .lnb > li a { font-weight: 500; font-size: 18px; line-height: 39px; }
 .campaign .my_gnb .gnb_wrap .btns a { display: block; font-weight: 500; font-size: 18px; line-height: 39px; }
 
+
 @media only all and (max-width: 768px) {
 
     .campaign #header { position: unset; padding: 0 20px; }
@@ -113,6 +114,9 @@
 }
 
 /* 메인페이지 */
+.main-wrap .f-21 {
+    font-size: 21px !important;
+}
 #wrap.main {
     height: auto !important;
 }
@@ -929,6 +933,9 @@
     .main #container .content-img .btn-item {
         font-size: clamp(14px, 2vw, 22px);
     }
+    .main #container .content-img .f-21 {
+        font-size: clamp(11px, 2vw, 18px) !important;
+    }
 }
 
 @media (max-width: 1062px) {
@@ -942,11 +949,21 @@
         font-size: clamp(12px, 1.5vw ,15px);
     }
 }
+@media (max-width: 961px) {
+    .main #container .content-img .f-21 {
+        font-size: clamp(11px, 2vw, 15px) !important;
+    }
+}
 @media (max-width: 894px) {
     .main #container .content-img2 .section-title ,
     .main #container .content-img3 .section-title ,
     .main #container .content-img4 .section-title {
         font-size: clamp(6px, 4vw, 36px);
+    }
+}
+@media (max-width: 803px) {
+    .main #container .content-img .f-21 {
+        font-size: clamp(11px, 2vw, 14px) !important;
     }
 }
 @media (max-width: 767px) {
@@ -1508,9 +1525,30 @@
     .web06 #container .content-item {
         margin-top: 25px;
     }
-    
+    .main #container .content-img .f-21 {
+        height: 2.2em;
+        line-height: 1.8em;
+    }
 }
-
+@media (max-width: 750px) {
+    .main #container .content-img .f-21 {
+        font-size: clamp(10px, 2vw, 13px) !important;
+    }
+}
+@media (max-width: 697px) {
+    .main #container .content-img .f-21 {
+        font-size: clamp(9px, 2vw, 11px) !important;
+        line-height: 2em;
+        height: 2.5em;
+    }
+}
+@media (max-width: 591px) {
+    .main #container .content-img .f-21 {
+        font-size: 9px !important;
+        line-height: 2.3em;
+        height: 2.9em;
+    }
+}
 @media (max-width: 480px) {
     
     .main-wrap .visualImg-4 {
