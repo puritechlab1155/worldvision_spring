@@ -364,8 +364,7 @@
                                                             <a href="intBusiness2.html#section02" class="f-chilgok">아동보호</a>
                                                         </li> 
                                                         <li class="btn-item">
-                                                            <a href="intBusiness2.html#section031" class="f-chilgok">인도적지원사업</a>
-                                                        </li> 
+                                                            <a href="intBusiness2.html#section031" class="f-chilgok" onclick="forceNavigate(event)">인도적지원사업</a>                                                        </li> 
                                                         <li class="btn-item">
                                                             <a href="intBusiness2.html#section04" class="f-chilgok">기후변화대응사업</a>
                                                         </li> 
@@ -508,6 +507,12 @@
                     }
                 });
             }); 
+
+            //  인도적 지원사업
+            function forceNavigate(event) {
+                event.preventDefault(); // 기본 이동 동작 방지
+                window.location.href = "intBusiness2.html#section031"; // 강제 이동
+            }
         </script>
         
 
