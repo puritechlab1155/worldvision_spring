@@ -510,8 +510,13 @@
 
             //  인도적 지원사업
             function forceNavigate(event) {
-                event.preventDefault(); // 기본 이동 동작 방지
-                window.location.href = "intBusiness2.html#section031"; // 강제 이동
+                event.preventDefault();
+
+                const isMobile = window.innerWidth <= 767;
+                const targetId = isMobile ? 'section031-mobile' : 'section031';
+                
+                // 다른 페이지로 이동하면서 해시 추가
+                window.location.href = `intBusiness2.html#${targetId}`;
             }
         </script>
         
