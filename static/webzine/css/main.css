@@ -434,9 +434,10 @@
     color: #fff;
     text-align: center;
     padding: 10px;
-    font-size: clamp(12px, 2vw, 22px);
+    font-size: clamp(14px, 2vw, 22px);
     border-radius: 10px;
     margin-top: 70px;
+    font-weight: 500;
 }
 .p-t-100 {
     padding-top: clamp(50px, 6vw, 100px);
