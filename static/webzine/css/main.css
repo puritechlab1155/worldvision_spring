@@ -423,6 +423,21 @@
     display: none;
 }
 /* 메인 비주얼 들어가는 서브 페이지 */
+.orange-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.orange-sub-btn {
+    width: 300px;
+    background: #F56400;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: clamp(12px, 2vw, 22px);
+    border-radius: 10px;
+    margin-top: 70px;
+}
 .p-t-100 {
     padding-top: clamp(50px, 6vw, 100px);
 }
